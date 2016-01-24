@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184A87591C55049A00D4BC6D /* Lipstick.h in Headers */ = {isa = PBXBuildFile; fileRef = 184A87581C55049A00D4BC6D /* Lipstick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		184A87601C55049A00D4BC6D /* Lipstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184A87551C55049A00D4BC6D /* Lipstick.framework */; };
+		184A87841C5505AA00D4BC6D /* AnyStyleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A876F1C5505AA00D4BC6D /* AnyStyleable.swift */; };
+		184A87851C5505AA00D4BC6D /* BaseStyleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87701C5505AA00D4BC6D /* BaseStyleBuilder.swift */; };
+		184A87861C5505AA00D4BC6D /* ColorCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87711C5505AA00D4BC6D /* ColorCache.swift */; };
+		184A87871C5505AA00D4BC6D /* ControllerRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87721C5505AA00D4BC6D /* ControllerRootView.swift */; };
+		184A87881C5505AA00D4BC6D /* DSLHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87731C5505AA00D4BC6D /* DSLHelpers.swift */; };
+		184A87891C5505AA00D4BC6D /* FontCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87741C5505AA00D4BC6D /* FontCache.swift */; };
+		184A878A1C5505AA00D4BC6D /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87751C5505AA00D4BC6D /* Style.swift */; };
+		184A878B1C5505AA00D4BC6D /* Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87761C5505AA00D4BC6D /* Styleable.swift */; };
+		184A878C1C5505AA00D4BC6D /* StyleApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87771C5505AA00D4BC6D /* StyleApplication.swift */; };
+		184A878D1C5505AA00D4BC6D /* StyleBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87781C5505AA00D4BC6D /* StyleBlueprint.swift */; };
+		184A878E1C5505AA00D4BC6D /* StyleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87791C5505AA00D4BC6D /* StyleBuilder.swift */; };
+		184A878F1C5505AA00D4BC6D /* StyleDeclarationPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877A1C5505AA00D4BC6D /* StyleDeclarationPart.swift */; };
+		184A87901C5505AA00D4BC6D /* StyledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877B1C5505AA00D4BC6D /* StyledItem.swift */; };
+		184A87911C5505AA00D4BC6D /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877C1C5505AA00D4BC6D /* StyleManager.swift */; };
+		184A87921C5505AA00D4BC6D /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877D1C5505AA00D4BC6D /* Stylesheet.swift */; };
+		184A87931C5505AA00D4BC6D /* StyleTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877E1C5505AA00D4BC6D /* StyleTarget.swift */; };
+		184A87941C5505AA00D4BC6D /* StylingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877F1C5505AA00D4BC6D /* StylingDetails.swift */; };
+		184A87951C5505AA00D4BC6D /* StylingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87801C5505AA00D4BC6D /* StylingUtils.swift */; };
+		184A87961C5505AA00D4BC6D /* TypedStyleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87811C5505AA00D4BC6D /* TypedStyleBuilder.swift */; };
+		184A87971C5505AA00D4BC6D /* UIKitStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87821C5505AA00D4BC6D /* UIKitStyleManager.swift */; };
+		184A87981C5505AA00D4BC6D /* UIView+Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87831C5505AA00D4BC6D /* UIView+Styleable.swift */; };
+		184A880B1C551A3A00D4BC6D /* LipstickExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88061C551A2400D4BC6D /* LipstickExampleUITests.swift */; };
+		184A880C1C551A3A00D4BC6D /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88071C551A2400D4BC6D /* Tests.swift */; };
+		184A880E1C551A4800D4BC6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A87FC1C551A0500D4BC6D /* Images.xcassets */; };
+		184A88101C551A4800D4BC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87FE1C551A0500D4BC6D /* ViewController.swift */; };
+		184A88111C551A4B00D4BC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87F61C551A0500D4BC6D /* AppDelegate.swift */; };
+		184A88121C551A5200D4BC6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184A87F81C551A0500D4BC6D /* LaunchScreen.xib */; };
+		184A88131C551A5200D4BC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A87FA1C551A0500D4BC6D /* Main.storyboard */; };
+		184A88291C551BA500D4BC6D /* LipstickDescriptionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A881D1C551BA000D4BC6D /* LipstickDescriptionsTest.swift */; };
+		184A882A1C551BA500D4BC6D /* LipstickMatchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A881E1C551BA000D4BC6D /* LipstickMatchingTest.swift */; };
+		184A882B1C551BA500D4BC6D /* LipstickPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A881F1C551BA000D4BC6D /* LipstickPerformance.swift */; };
+		184A882C1C551BA500D4BC6D /* StyleManagerSingletonInstantiationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88201C551BA000D4BC6D /* StyleManagerSingletonInstantiationTest.swift */; };
+		184A882D1C551BA500D4BC6D /* StyleTargetEqualityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88211C551BA000D4BC6D /* StyleTargetEqualityTest.swift */; };
+		184A882E1C551BA500D4BC6D /* UIKitStyleManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88221C551BA000D4BC6D /* UIKitStyleManagerTest.swift */; };
+		312FF8638B36AAA259F4E7EE /* Pods_Lipstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAEC739741A09E57B0B1EFF /* Pods_Lipstick.framework */; };
+		52D100F8FAD3DCE8C54D9B7B /* Pods_LipstickExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE6B93D837C3B9C7BCDAC08 /* Pods_LipstickExampleUITests.framework */; };
+		53F7F63EBCCFA217971748DD /* Pods_LipstickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4125B9BC5B712647905C8EE /* Pods_LipstickTests.framework */; };
+		74131AFEBB6A086CA42879AD /* Pods_LipstickExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269603FAB6606708B710BD29 /* Pods_LipstickExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184A87611C55049A00D4BC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184A874C1C55049A00D4BC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A87541C55049A00D4BC6D;
+			remoteInfo = Lipstick;
+		};
+		184A87EA1C55197100D4BC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184A874C1C55049A00D4BC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A87D51C55197100D4BC6D;
+			remoteInfo = LipstickExample;
+		};
+		184A882F1C551D0E00D4BC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184A874C1C55049A00D4BC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A87541C55049A00D4BC6D;
+			remoteInfo = Lipstick;
+		};
+		184A88311C551DC000D4BC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184A874C1C55049A00D4BC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A87D51C55197100D4BC6D;
+			remoteInfo = LipstickExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184A87551C55049A00D4BC6D /* Lipstick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lipstick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A87581C55049A00D4BC6D /* Lipstick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lipstick.h; sourceTree = "<group>"; };
+		184A875A1C55049A00D4BC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A875F1C55049A00D4BC6D /* LipstickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LipstickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A87661C55049A00D4BC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A876F1C5505AA00D4BC6D /* AnyStyleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyStyleable.swift; sourceTree = "<group>"; };
+		184A87701C5505AA00D4BC6D /* BaseStyleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseStyleBuilder.swift; sourceTree = "<group>"; };
+		184A87711C5505AA00D4BC6D /* ColorCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCache.swift; sourceTree = "<group>"; };
+		184A87721C5505AA00D4BC6D /* ControllerRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerRootView.swift; sourceTree = "<group>"; };
+		184A87731C5505AA00D4BC6D /* DSLHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSLHelpers.swift; sourceTree = "<group>"; };
+		184A87741C5505AA00D4BC6D /* FontCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontCache.swift; sourceTree = "<group>"; };
+		184A87751C5505AA00D4BC6D /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		184A87761C5505AA00D4BC6D /* Styleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styleable.swift; sourceTree = "<group>"; };
+		184A87771C5505AA00D4BC6D /* StyleApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleApplication.swift; sourceTree = "<group>"; };
+		184A87781C5505AA00D4BC6D /* StyleBlueprint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleBlueprint.swift; sourceTree = "<group>"; };
+		184A87791C5505AA00D4BC6D /* StyleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleBuilder.swift; sourceTree = "<group>"; };
+		184A877A1C5505AA00D4BC6D /* StyleDeclarationPart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleDeclarationPart.swift; sourceTree = "<group>"; };
+		184A877B1C5505AA00D4BC6D /* StyledItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledItem.swift; sourceTree = "<group>"; };
+		184A877C1C5505AA00D4BC6D /* StyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleManager.swift; sourceTree = "<group>"; };
+		184A877D1C5505AA00D4BC6D /* Stylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stylesheet.swift; sourceTree = "<group>"; };
+		184A877E1C5505AA00D4BC6D /* StyleTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleTarget.swift; sourceTree = "<group>"; };
+		184A877F1C5505AA00D4BC6D /* StylingDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylingDetails.swift; sourceTree = "<group>"; };
+		184A87801C5505AA00D4BC6D /* StylingUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylingUtils.swift; sourceTree = "<group>"; };
+		184A87811C5505AA00D4BC6D /* TypedStyleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypedStyleBuilder.swift; sourceTree = "<group>"; };
+		184A87821C5505AA00D4BC6D /* UIKitStyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitStyleManager.swift; sourceTree = "<group>"; };
+		184A87831C5505AA00D4BC6D /* UIView+Styleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Styleable.swift"; sourceTree = "<group>"; };
+		184A87D61C55197100D4BC6D /* LipstickExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LipstickExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A87E91C55197100D4BC6D /* LipstickExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LipstickExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A87F61C551A0500D4BC6D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184A87F91C551A0500D4BC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		184A87FB1C551A0500D4BC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		184A87FC1C551A0500D4BC6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		184A87FD1C551A0500D4BC6D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A87FE1C551A0500D4BC6D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184A88051C551A2400D4BC6D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A88061C551A2400D4BC6D /* LipstickExampleUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LipstickExampleUITests.swift; sourceTree = "<group>"; };
+		184A88071C551A2400D4BC6D /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		184A88151C551B2A00D4BC6D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		184A88161C551B2A00D4BC6D /* Lipstick.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lipstick.podspec; sourceTree = SOURCE_ROOT; };
+		184A88171C551B2A00D4BC6D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		184A88181C551B2A00D4BC6D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		184A881D1C551BA000D4BC6D /* LipstickDescriptionsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LipstickDescriptionsTest.swift; sourceTree = "<group>"; };
+		184A881E1C551BA000D4BC6D /* LipstickMatchingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LipstickMatchingTest.swift; sourceTree = "<group>"; };
+		184A881F1C551BA000D4BC6D /* LipstickPerformance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LipstickPerformance.swift; sourceTree = "<group>"; };
+		184A88201C551BA000D4BC6D /* StyleManagerSingletonInstantiationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleManagerSingletonInstantiationTest.swift; sourceTree = "<group>"; };
+		184A88211C551BA000D4BC6D /* StyleTargetEqualityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleTargetEqualityTest.swift; sourceTree = "<group>"; };
+		184A88221C551BA000D4BC6D /* UIKitStyleManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitStyleManagerTest.swift; sourceTree = "<group>"; };
+		269603FAB6606708B710BD29 /* Pods_LipstickExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LipstickExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAEC739741A09E57B0B1EFF /* Pods_Lipstick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lipstick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66740A38A5D17EC8BCA95C46 /* Pods-LipstickExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickExample/Pods-LipstickExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6B924BD87709293953002E91 /* Pods-LipstickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickTests/Pods-LipstickTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CFB61C2FFF8EAE99C2256F8 /* Pods-LipstickExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickExample/Pods-LipstickExample.release.xcconfig"; sourceTree = "<group>"; };
+		AA2C1D10FABBAA94167969C3 /* Pods-LipstickExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickExampleUITests/Pods-LipstickExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C83E94CE3656915A4CDC0D61 /* Pods-Lipstick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lipstick.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lipstick/Pods-Lipstick.release.xcconfig"; sourceTree = "<group>"; };
+		D28186CF79B48E6BE25F4AB5 /* Pods-LipstickExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickExampleUITests/Pods-LipstickExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8CC3449E8DAB8A3CF20E7AF /* Pods-LipstickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickTests/Pods-LipstickTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBE6B93D837C3B9C7BCDAC08 /* Pods_LipstickExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LipstickExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4125B9BC5B712647905C8EE /* Pods_LipstickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LipstickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E775ED0FF3F469F90C3E5077 /* Pods-Lipstick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lipstick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lipstick/Pods-Lipstick.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184A87511C55049A00D4BC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312FF8638B36AAA259F4E7EE /* Pods_Lipstick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A875C1C55049A00D4BC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A87601C55049A00D4BC6D /* Lipstick.framework in Frameworks */,
+				53F7F63EBCCFA217971748DD /* Pods_LipstickTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A87D31C55197100D4BC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74131AFEBB6A086CA42879AD /* Pods_LipstickExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A87E61C55197100D4BC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D100F8FAD3DCE8C54D9B7B /* Pods_LipstickExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184A874B1C55049A00D4BC6D = {
+			isa = PBXGroup;
+			children = (
+				184A88141C551B1A00D4BC6D /* Supporting files */,
+				184A87571C55049A00D4BC6D /* Source */,
+				184A87631C55049A00D4BC6D /* Tests */,
+				184A87D71C55197100D4BC6D /* LipstickExample */,
+				184A87EC1C55197100D4BC6D /* LipstickExampleUITests */,
+				184A87561C55049A00D4BC6D /* Products */,
+				AEADCDD60A7C68C1DAF1A792 /* Pods */,
+				7E310B6E51A6B6D4BE56112D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184A87561C55049A00D4BC6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184A87551C55049A00D4BC6D /* Lipstick.framework */,
+				184A875F1C55049A00D4BC6D /* LipstickTests.xctest */,
+				184A87D61C55197100D4BC6D /* LipstickExample.app */,
+				184A87E91C55197100D4BC6D /* LipstickExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184A87571C55049A00D4BC6D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				184A876F1C5505AA00D4BC6D /* AnyStyleable.swift */,
+				184A87701C5505AA00D4BC6D /* BaseStyleBuilder.swift */,
+				184A87711C5505AA00D4BC6D /* ColorCache.swift */,
+				184A87721C5505AA00D4BC6D /* ControllerRootView.swift */,
+				184A87731C5505AA00D4BC6D /* DSLHelpers.swift */,
+				184A87741C5505AA00D4BC6D /* FontCache.swift */,
+				184A87751C5505AA00D4BC6D /* Style.swift */,
+				184A87761C5505AA00D4BC6D /* Styleable.swift */,
+				184A87771C5505AA00D4BC6D /* StyleApplication.swift */,
+				184A87781C5505AA00D4BC6D /* StyleBlueprint.swift */,
+				184A87791C5505AA00D4BC6D /* StyleBuilder.swift */,
+				184A877A1C5505AA00D4BC6D /* StyleDeclarationPart.swift */,
+				184A877B1C5505AA00D4BC6D /* StyledItem.swift */,
+				184A877C1C5505AA00D4BC6D /* StyleManager.swift */,
+				184A877D1C5505AA00D4BC6D /* Stylesheet.swift */,
+				184A877E1C5505AA00D4BC6D /* StyleTarget.swift */,
+				184A877F1C5505AA00D4BC6D /* StylingDetails.swift */,
+				184A87801C5505AA00D4BC6D /* StylingUtils.swift */,
+				184A87811C5505AA00D4BC6D /* TypedStyleBuilder.swift */,
+				184A87821C5505AA00D4BC6D /* UIKitStyleManager.swift */,
+				184A87831C5505AA00D4BC6D /* UIView+Styleable.swift */,
+				184A87581C55049A00D4BC6D /* Lipstick.h */,
+				184A875A1C55049A00D4BC6D /* Info.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		184A87631C55049A00D4BC6D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				184A881D1C551BA000D4BC6D /* LipstickDescriptionsTest.swift */,
+				184A881E1C551BA000D4BC6D /* LipstickMatchingTest.swift */,
+				184A881F1C551BA000D4BC6D /* LipstickPerformance.swift */,
+				184A88201C551BA000D4BC6D /* StyleManagerSingletonInstantiationTest.swift */,
+				184A88211C551BA000D4BC6D /* StyleTargetEqualityTest.swift */,
+				184A88221C551BA000D4BC6D /* UIKitStyleManagerTest.swift */,
+				184A87661C55049A00D4BC6D /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		184A87D71C55197100D4BC6D /* LipstickExample */ = {
+			isa = PBXGroup;
+			children = (
+				184A87F61C551A0500D4BC6D /* AppDelegate.swift */,
+				184A87F71C551A0500D4BC6D /* Base.lproj */,
+				184A87FC1C551A0500D4BC6D /* Images.xcassets */,
+				184A87FD1C551A0500D4BC6D /* Info.plist */,
+				184A87FE1C551A0500D4BC6D /* ViewController.swift */,
+			);
+			name = LipstickExample;
+			path = Example/Source;
+			sourceTree = "<group>";
+		};
+		184A87EC1C55197100D4BC6D /* LipstickExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184A88051C551A2400D4BC6D /* Info.plist */,
+				184A88061C551A2400D4BC6D /* LipstickExampleUITests.swift */,
+				184A88071C551A2400D4BC6D /* Tests.swift */,
+			);
+			name = LipstickExampleUITests;
+			path = Example/Tests;
+			sourceTree = "<group>";
+		};
+		184A87F71C551A0500D4BC6D /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				184A87F81C551A0500D4BC6D /* LaunchScreen.xib */,
+				184A87FA1C551A0500D4BC6D /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		184A88141C551B1A00D4BC6D /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				184A88151C551B2A00D4BC6D /* LICENSE */,
+				184A88161C551B2A00D4BC6D /* Lipstick.podspec */,
+				184A88171C551B2A00D4BC6D /* Podfile */,
+				184A88181C551B2A00D4BC6D /* README.md */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		7E310B6E51A6B6D4BE56112D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DAEC739741A09E57B0B1EFF /* Pods_Lipstick.framework */,
+				269603FAB6606708B710BD29 /* Pods_LipstickExample.framework */,
+				DBE6B93D837C3B9C7BCDAC08 /* Pods_LipstickExampleUITests.framework */,
+				E4125B9BC5B712647905C8EE /* Pods_LipstickTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEADCDD60A7C68C1DAF1A792 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E775ED0FF3F469F90C3E5077 /* Pods-Lipstick.debug.xcconfig */,
+				C83E94CE3656915A4CDC0D61 /* Pods-Lipstick.release.xcconfig */,
+				66740A38A5D17EC8BCA95C46 /* Pods-LipstickExample.debug.xcconfig */,
+				9CFB61C2FFF8EAE99C2256F8 /* Pods-LipstickExample.release.xcconfig */,
+				AA2C1D10FABBAA94167969C3 /* Pods-LipstickExampleUITests.debug.xcconfig */,
+				D28186CF79B48E6BE25F4AB5 /* Pods-LipstickExampleUITests.release.xcconfig */,
+				6B924BD87709293953002E91 /* Pods-LipstickTests.debug.xcconfig */,
+				D8CC3449E8DAB8A3CF20E7AF /* Pods-LipstickTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		184A87521C55049A00D4BC6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A87591C55049A00D4BC6D /* Lipstick.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		184A87541C55049A00D4BC6D /* Lipstick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A87691C55049A00D4BC6D /* Build configuration list for PBXNativeTarget "Lipstick" */;
+			buildPhases = (
+				2583013D9F056F1C43B62E9C /* Check Pods Manifest.lock */,
+				184A87501C55049A00D4BC6D /* Sources */,
+				184A87511C55049A00D4BC6D /* Frameworks */,
+				184A87521C55049A00D4BC6D /* Headers */,
+				184A87531C55049A00D4BC6D /* Resources */,
+				4DA09B4084CFD4473F71FB61 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lipstick;
+			productName = Lipstick;
+			productReference = 184A87551C55049A00D4BC6D /* Lipstick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		184A875E1C55049A00D4BC6D /* LipstickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A876C1C55049A00D4BC6D /* Build configuration list for PBXNativeTarget "LipstickTests" */;
+			buildPhases = (
+				CB9C2E747F251FBFE797E7CF /* Check Pods Manifest.lock */,
+				184A875B1C55049A00D4BC6D /* Sources */,
+				184A875C1C55049A00D4BC6D /* Frameworks */,
+				184A875D1C55049A00D4BC6D /* Resources */,
+				C5D7FF5FDA2A9B241607522B /* Embed Pods Frameworks */,
+				8844A8B5D5B96D42946B3109 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184A87621C55049A00D4BC6D /* PBXTargetDependency */,
+				184A88321C551DC000D4BC6D /* PBXTargetDependency */,
+			);
+			name = LipstickTests;
+			productName = LipstickTests;
+			productReference = 184A875F1C55049A00D4BC6D /* LipstickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184A87D51C55197100D4BC6D /* LipstickExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A87F41C55197100D4BC6D /* Build configuration list for PBXNativeTarget "LipstickExample" */;
+			buildPhases = (
+				E2581352125AA3918809C20D /* Check Pods Manifest.lock */,
+				184A87D21C55197100D4BC6D /* Sources */,
+				184A87D31C55197100D4BC6D /* Frameworks */,
+				184A87D41C55197100D4BC6D /* Resources */,
+				869408205226664509DAB312 /* Embed Pods Frameworks */,
+				73622407EFE3BF2833BA2D01 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184A88301C551D0E00D4BC6D /* PBXTargetDependency */,
+			);
+			name = LipstickExample;
+			productName = LipstickExample;
+			productReference = 184A87D61C55197100D4BC6D /* LipstickExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184A87E81C55197100D4BC6D /* LipstickExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A87F51C55197100D4BC6D /* Build configuration list for PBXNativeTarget "LipstickExampleUITests" */;
+			buildPhases = (
+				6E1752D75B1E3F341C4A25DF /* Check Pods Manifest.lock */,
+				184A87E51C55197100D4BC6D /* Sources */,
+				184A87E61C55197100D4BC6D /* Frameworks */,
+				184A87E71C55197100D4BC6D /* Resources */,
+				EDF206EF5DBC4339B32ECF6C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184A87EB1C55197100D4BC6D /* PBXTargetDependency */,
+			);
+			name = LipstickExampleUITests;
+			productName = LipstickExampleUITests;
+			productReference = 184A87E91C55197100D4BC6D /* LipstickExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184A874C1C55049A00D4BC6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Brightify;
+				TargetAttributes = {
+					184A87541C55049A00D4BC6D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					184A875E1C55049A00D4BC6D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 184A87D51C55197100D4BC6D;
+					};
+					184A87D51C55197100D4BC6D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					184A87E81C55197100D4BC6D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 184A87D51C55197100D4BC6D;
+					};
+				};
+			};
+			buildConfigurationList = 184A874F1C55049A00D4BC6D /* Build configuration list for PBXProject "Lipstick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184A874B1C55049A00D4BC6D;
+			productRefGroup = 184A87561C55049A00D4BC6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184A87541C55049A00D4BC6D /* Lipstick */,
+				184A875E1C55049A00D4BC6D /* LipstickTests */,
+				184A87D51C55197100D4BC6D /* LipstickExample */,
+				184A87E81C55197100D4BC6D /* LipstickExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184A87531C55049A00D4BC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A875D1C55049A00D4BC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A87D41C55197100D4BC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A88121C551A5200D4BC6D /* LaunchScreen.xib in Resources */,
+				184A880E1C551A4800D4BC6D /* Images.xcassets in Resources */,
+				184A88131C551A5200D4BC6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A87E71C55197100D4BC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2583013D9F056F1C43B62E9C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA09B4084CFD4473F71FB61 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lipstick/Pods-Lipstick-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1752D75B1E3F341C4A25DF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73622407EFE3BF2833BA2D01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipstickExample/Pods-LipstickExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		869408205226664509DAB312 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipstickExample/Pods-LipstickExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8844A8B5D5B96D42946B3109 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipstickTests/Pods-LipstickTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D7FF5FDA2A9B241607522B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipstickTests/Pods-LipstickTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB9C2E747F251FBFE797E7CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2581352125AA3918809C20D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF206EF5DBC4339B32ECF6C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipstickExampleUITests/Pods-LipstickExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184A87501C55049A00D4BC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A87971C5505AA00D4BC6D /* UIKitStyleManager.swift in Sources */,
+				184A878C1C5505AA00D4BC6D /* StyleApplication.swift in Sources */,
+				184A878E1C5505AA00D4BC6D /* StyleBuilder.swift in Sources */,
+				184A87921C5505AA00D4BC6D /* Stylesheet.swift in Sources */,
+				184A87941C5505AA00D4BC6D /* StylingDetails.swift in Sources */,
+				184A87851C5505AA00D4BC6D /* BaseStyleBuilder.swift in Sources */,
+				184A87931C5505AA00D4BC6D /* StyleTarget.swift in Sources */,
+				184A87861C5505AA00D4BC6D /* ColorCache.swift in Sources */,
+				184A87901C5505AA00D4BC6D /* StyledItem.swift in Sources */,
+				184A87961C5505AA00D4BC6D /* TypedStyleBuilder.swift in Sources */,
+				184A87871C5505AA00D4BC6D /* ControllerRootView.swift in Sources */,
+				184A87891C5505AA00D4BC6D /* FontCache.swift in Sources */,
+				184A87881C5505AA00D4BC6D /* DSLHelpers.swift in Sources */,
+				184A87981C5505AA00D4BC6D /* UIView+Styleable.swift in Sources */,
+				184A878F1C5505AA00D4BC6D /* StyleDeclarationPart.swift in Sources */,
+				184A87951C5505AA00D4BC6D /* StylingUtils.swift in Sources */,
+				184A878A1C5505AA00D4BC6D /* Style.swift in Sources */,
+				184A87841C5505AA00D4BC6D /* AnyStyleable.swift in Sources */,
+				184A878B1C5505AA00D4BC6D /* Styleable.swift in Sources */,
+				184A878D1C5505AA00D4BC6D /* StyleBlueprint.swift in Sources */,
+				184A87911C5505AA00D4BC6D /* StyleManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A875B1C55049A00D4BC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A882D1C551BA500D4BC6D /* StyleTargetEqualityTest.swift in Sources */,
+				184A882A1C551BA500D4BC6D /* LipstickMatchingTest.swift in Sources */,
+				184A882B1C551BA500D4BC6D /* LipstickPerformance.swift in Sources */,
+				184A882C1C551BA500D4BC6D /* StyleManagerSingletonInstantiationTest.swift in Sources */,
+				184A882E1C551BA500D4BC6D /* UIKitStyleManagerTest.swift in Sources */,
+				184A88291C551BA500D4BC6D /* LipstickDescriptionsTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A87D21C55197100D4BC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A88111C551A4B00D4BC6D /* AppDelegate.swift in Sources */,
+				184A88101C551A4800D4BC6D /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184A87E51C55197100D4BC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A880B1C551A3A00D4BC6D /* LipstickExampleUITests.swift in Sources */,
+				184A880C1C551A3A00D4BC6D /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184A87621C55049A00D4BC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184A87541C55049A00D4BC6D /* Lipstick */;
+			targetProxy = 184A87611C55049A00D4BC6D /* PBXContainerItemProxy */;
+		};
+		184A87EB1C55197100D4BC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184A87D51C55197100D4BC6D /* LipstickExample */;
+			targetProxy = 184A87EA1C55197100D4BC6D /* PBXContainerItemProxy */;
+		};
+		184A88301C551D0E00D4BC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184A87541C55049A00D4BC6D /* Lipstick */;
+			targetProxy = 184A882F1C551D0E00D4BC6D /* PBXContainerItemProxy */;
+		};
+		184A88321C551DC000D4BC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184A87D51C55197100D4BC6D /* LipstickExample */;
+			targetProxy = 184A88311C551DC000D4BC6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184A87F81C551A0500D4BC6D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184A87F91C551A0500D4BC6D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		184A87FA1C551A0500D4BC6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184A87FB1C551A0500D4BC6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184A87671C55049A00D4BC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		184A87681C55049A00D4BC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		184A876A1C55049A00D4BC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E775ED0FF3F469F90C3E5077 /* Pods-Lipstick.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.Lipstick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184A876B1C55049A00D4BC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83E94CE3656915A4CDC0D61 /* Pods-Lipstick.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.Lipstick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		184A876D1C55049A00D4BC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B924BD87709293953002E91 /* Pods-LipstickTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LipstickExample.app/LipstickExample";
+			};
+			name = Debug;
+		};
+		184A876E1C55049A00D4BC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CC3449E8DAB8A3CF20E7AF /* Pods-LipstickTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LipstickExample.app/LipstickExample";
+			};
+			name = Release;
+		};
+		184A87F01C55197100D4BC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66740A38A5D17EC8BCA95C46 /* Pods-LipstickExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Source/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		184A87F11C55197100D4BC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFB61C2FFF8EAE99C2256F8 /* Pods-LipstickExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Source/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		184A87F21C55197100D4BC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2C1D10FABBAA94167969C3 /* Pods-LipstickExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Example/Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LipstickExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		184A87F31C55197100D4BC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28186CF79B48E6BE25F4AB5 /* Pods-LipstickExampleUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Example/Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LipstickExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184A874F1C55049A00D4BC6D /* Build configuration list for PBXProject "Lipstick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A87671C55049A00D4BC6D /* Debug */,
+				184A87681C55049A00D4BC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A87691C55049A00D4BC6D /* Build configuration list for PBXNativeTarget "Lipstick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A876A1C55049A00D4BC6D /* Debug */,
+				184A876B1C55049A00D4BC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A876C1C55049A00D4BC6D /* Build configuration list for PBXNativeTarget "LipstickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A876D1C55049A00D4BC6D /* Debug */,
+				184A876E1C55049A00D4BC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A87F41C55197100D4BC6D /* Build configuration list for PBXNativeTarget "LipstickExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A87F01C55197100D4BC6D /* Debug */,
+				184A87F11C55197100D4BC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A87F51C55197100D4BC6D /* Build configuration list for PBXNativeTarget "LipstickExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A87F21C55197100D4BC6D /* Debug */,
+				184A87F31C55197100D4BC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184A874C1C55049A00D4BC6D /* Project object */;
+}

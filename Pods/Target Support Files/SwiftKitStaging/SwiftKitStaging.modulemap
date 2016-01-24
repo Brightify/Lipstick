@@ -1,0 +1,6 @@
+framework module SwiftKitStaging {
+  umbrella header "SwiftKitStaging-umbrella.h"
+
+  export *
+  module * { export * }
+}

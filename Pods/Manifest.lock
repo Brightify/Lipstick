@@ -1,0 +1,29 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - Nimble (3.0.0)
+  - Nimble-Snapshots (3.0.0):
+    - FBSnapshotTestCase (~> 2.0.7)
+    - Nimble
+    - Quick
+  - Quick (0.8.0)
+  - SwiftKitStaging (0.1.2)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Nimble (= 3.0.0)
+  - Nimble-Snapshots
+  - Quick (~> 0.8.0)
+  - SwiftKitStaging
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
+  Nimble-Snapshots: ab41dd737dcd33a0b0cb005a30465fef70b7207a
+  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+  SwiftKitStaging: c6426fc38163d3e66e1dedc3783e94c2d303610c
+
+COCOAPODS: 0.39.0
