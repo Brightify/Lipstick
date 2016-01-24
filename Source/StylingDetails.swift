@@ -130,6 +130,11 @@ extension StylingDetails {
     
     /// Used privately to not require multiple SequenceType conversions to Set
     private func setNamesInternal(names: Set<String>, animated: Bool = false) {
+        // If names are not changed, no need to restyle.
+        if names == _names {
+            return
+        }
+        
         _names = names
         
         // When we change the names, we have to invalidate the style caches of this styleable and its children
