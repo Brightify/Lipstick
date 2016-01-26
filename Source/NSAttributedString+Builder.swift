@@ -147,6 +147,10 @@ public enum Attribute {
 
 extension String {
     public func attributed(attributes: Attribute...) -> NSAttributedString {
+        return attributed(attributes)
+    }
+    
+    public func attributed(attributes: [Attribute]) -> NSAttributedString {
         var attributeDictionary: [String: AnyObject] = [:]
         for attribute in attributes {
             attributeDictionary[attribute.name] = attribute.value
