@@ -43,6 +43,7 @@
 		184A882C1C551BA500D4BC6D /* StyleManagerSingletonInstantiationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88201C551BA000D4BC6D /* StyleManagerSingletonInstantiationTest.swift */; };
 		184A882D1C551BA500D4BC6D /* StyleTargetEqualityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88211C551BA000D4BC6D /* StyleTargetEqualityTest.swift */; };
 		184A882E1C551BA500D4BC6D /* UIKitStyleManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88221C551BA000D4BC6D /* UIKitStyleManagerTest.swift */; };
+		18640EAD1C57183000A9AC22 /* NSAttributedString+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18640EAC1C57183000A9AC22 /* NSAttributedString+Builder.swift */; };
 		312FF8638B36AAA259F4E7EE /* Pods_Lipstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAEC739741A09E57B0B1EFF /* Pods_Lipstick.framework */; };
 		52D100F8FAD3DCE8C54D9B7B /* Pods_LipstickExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE6B93D837C3B9C7BCDAC08 /* Pods_LipstickExampleUITests.framework */; };
 		53F7F63EBCCFA217971748DD /* Pods_LipstickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4125B9BC5B712647905C8EE /* Pods_LipstickTests.framework */; };
@@ -128,6 +129,7 @@
 		184A88201C551BA000D4BC6D /* StyleManagerSingletonInstantiationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleManagerSingletonInstantiationTest.swift; sourceTree = "<group>"; };
 		184A88211C551BA000D4BC6D /* StyleTargetEqualityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleTargetEqualityTest.swift; sourceTree = "<group>"; };
 		184A88221C551BA000D4BC6D /* UIKitStyleManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitStyleManagerTest.swift; sourceTree = "<group>"; };
+		18640EAC1C57183000A9AC22 /* NSAttributedString+Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Builder.swift"; sourceTree = "<group>"; };
 		269603FAB6606708B710BD29 /* Pods_LipstickExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LipstickExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAEC739741A09E57B0B1EFF /* Pods_Lipstick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lipstick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66740A38A5D17EC8BCA95C46 /* Pods-LipstickExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickExample/Pods-LipstickExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				184A87831C5505AA00D4BC6D /* UIView+Styleable.swift */,
 				184A87581C55049A00D4BC6D /* Lipstick.h */,
 				184A875A1C55049A00D4BC6D /* Info.plist */,
+				18640EAC1C57183000A9AC22 /* NSAttributedString+Builder.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -662,6 +665,7 @@
 				184A87851C5505AA00D4BC6D /* BaseStyleBuilder.swift in Sources */,
 				184A87931C5505AA00D4BC6D /* StyleTarget.swift in Sources */,
 				184A87861C5505AA00D4BC6D /* ColorCache.swift in Sources */,
+				18640EAD1C57183000A9AC22 /* NSAttributedString+Builder.swift in Sources */,
 				184A87901C5505AA00D4BC6D /* StyledItem.swift in Sources */,
 				184A87961C5505AA00D4BC6D /* TypedStyleBuilder.swift in Sources */,
 				184A87871C5505AA00D4BC6D /* ControllerRootView.swift in Sources */,
