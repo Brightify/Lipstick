@@ -1,6 +1,0 @@
-framework module Pods_Lipstick {
-  umbrella header "Pods-Lipstick-umbrella.h"
-
-  export *
-  module * { export * }
-}

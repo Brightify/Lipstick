@@ -30,8 +30,6 @@
 		184A87961C5505AA00D4BC6D /* TypedStyleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87811C5505AA00D4BC6D /* TypedStyleBuilder.swift */; };
 		184A87971C5505AA00D4BC6D /* UIKitStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87821C5505AA00D4BC6D /* UIKitStyleManager.swift */; };
 		184A87981C5505AA00D4BC6D /* UIView+Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87831C5505AA00D4BC6D /* UIView+Styleable.swift */; };
-		184A880B1C551A3A00D4BC6D /* LipstickExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88061C551A2400D4BC6D /* LipstickExampleUITests.swift */; };
-		184A880C1C551A3A00D4BC6D /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88071C551A2400D4BC6D /* Tests.swift */; };
 		184A880E1C551A4800D4BC6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A87FC1C551A0500D4BC6D /* Images.xcassets */; };
 		184A88101C551A4800D4BC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87FE1C551A0500D4BC6D /* ViewController.swift */; };
 		184A88111C551A4B00D4BC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87F61C551A0500D4BC6D /* AppDelegate.swift */; };
@@ -44,10 +42,22 @@
 		184A882D1C551BA500D4BC6D /* StyleTargetEqualityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88211C551BA000D4BC6D /* StyleTargetEqualityTest.swift */; };
 		184A882E1C551BA500D4BC6D /* UIKitStyleManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88221C551BA000D4BC6D /* UIKitStyleManagerTest.swift */; };
 		18640EAD1C57183000A9AC22 /* NSAttributedString+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18640EAC1C57183000A9AC22 /* NSAttributedString+Builder.swift */; };
-		312FF8638B36AAA259F4E7EE /* Pods_Lipstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAEC739741A09E57B0B1EFF /* Pods_Lipstick.framework */; };
-		52D100F8FAD3DCE8C54D9B7B /* Pods_LipstickExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE6B93D837C3B9C7BCDAC08 /* Pods_LipstickExampleUITests.framework */; };
-		53F7F63EBCCFA217971748DD /* Pods_LipstickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4125B9BC5B712647905C8EE /* Pods_LipstickTests.framework */; };
-		74131AFEBB6A086CA42879AD /* Pods_LipstickExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269603FAB6606708B710BD29 /* Pods_LipstickExample.framework */; };
+		18F3F9911C8CB13000912FE6 /* SwiftKitStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9851C8CB13000912FE6 /* SwiftKitStaging.framework */; };
+		18F3F9941C8CB14C00912FE6 /* 5E37641D-8AA1-3F5B-92EE-EEC2DAB5DD49.bcsymbolmap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18F3F97B1C8CB13000912FE6 /* 5E37641D-8AA1-3F5B-92EE-EEC2DAB5DD49.bcsymbolmap */; };
+		18F3F9951C8CB14C00912FE6 /* A6B57130-0CEC-32F0-AB15-2E206B0C7429.bcsymbolmap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18F3F97C1C8CB13000912FE6 /* A6B57130-0CEC-32F0-AB15-2E206B0C7429.bcsymbolmap */; };
+		18F3F9961C8CB14C00912FE6 /* C943F1FD-81C4-3CDF-9B83-E2BE8E559743.bcsymbolmap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18F3F97D1C8CB13000912FE6 /* C943F1FD-81C4-3CDF-9B83-E2BE8E559743.bcsymbolmap */; };
+		18F3F9971C8CB14C00912FE6 /* F51FEF9E-263B-359E-B779-C035E5350FFD.bcsymbolmap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18F3F97E1C8CB13000912FE6 /* F51FEF9E-263B-359E-B779-C035E5350FFD.bcsymbolmap */; };
+		18F3F99A1C8CB14C00912FE6 /* SwiftKitStaging.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18F3F9861C8CB13000912FE6 /* SwiftKitStaging.framework.dSYM */; };
+		18F3F99B1C8CB19000912FE6 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9811C8CB13000912FE6 /* Nimble.framework */; };
+		18F3F99C1C8CB19000912FE6 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9831C8CB13000912FE6 /* Quick.framework */; };
+		18F3F9A01C8CB70200912FE6 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9811C8CB13000912FE6 /* Nimble.framework */; };
+		18F3F9A11C8CB70200912FE6 /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9811C8CB13000912FE6 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18F3F9A21C8CB70200912FE6 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9831C8CB13000912FE6 /* Quick.framework */; };
+		18F3F9A31C8CB70200912FE6 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9831C8CB13000912FE6 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18F3F9A41C8CB70200912FE6 /* SwiftKitStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9851C8CB13000912FE6 /* SwiftKitStaging.framework */; };
+		18F3F9A51C8CB70200912FE6 /* SwiftKitStaging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9851C8CB13000912FE6 /* SwiftKitStaging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18F3F9A61C8CB70200912FE6 /* Lipstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184A87551C55049A00D4BC6D /* Lipstick.framework */; };
+		18F3F9A71C8CB70200912FE6 /* Lipstick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 184A87551C55049A00D4BC6D /* Lipstick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +67,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 184A87541C55049A00D4BC6D;
 			remoteInfo = Lipstick;
-		};
-		184A87EA1C55197100D4BC6D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 184A874C1C55049A00D4BC6D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 184A87D51C55197100D4BC6D;
-			remoteInfo = LipstickExample;
 		};
 		184A882F1C551D0E00D4BC6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -80,6 +83,37 @@
 			remoteInfo = LipstickExample;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18F3F9931C8CB13C00912FE6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				18F3F9941C8CB14C00912FE6 /* 5E37641D-8AA1-3F5B-92EE-EEC2DAB5DD49.bcsymbolmap in CopyFiles */,
+				18F3F9951C8CB14C00912FE6 /* A6B57130-0CEC-32F0-AB15-2E206B0C7429.bcsymbolmap in CopyFiles */,
+				18F3F9961C8CB14C00912FE6 /* C943F1FD-81C4-3CDF-9B83-E2BE8E559743.bcsymbolmap in CopyFiles */,
+				18F3F9971C8CB14C00912FE6 /* F51FEF9E-263B-359E-B779-C035E5350FFD.bcsymbolmap in CopyFiles */,
+				18F3F99A1C8CB14C00912FE6 /* SwiftKitStaging.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F3F9A81C8CB70200912FE6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				18F3F9A31C8CB70200912FE6 /* Quick.framework in Embed Frameworks */,
+				18F3F9A71C8CB70200912FE6 /* Lipstick.framework in Embed Frameworks */,
+				18F3F9A51C8CB70200912FE6 /* SwiftKitStaging.framework in Embed Frameworks */,
+				18F3F9A11C8CB70200912FE6 /* Nimble.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		184A87551C55049A00D4BC6D /* Lipstick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lipstick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,7 +143,6 @@
 		184A87821C5505AA00D4BC6D /* UIKitStyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitStyleManager.swift; sourceTree = "<group>"; };
 		184A87831C5505AA00D4BC6D /* UIView+Styleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Styleable.swift"; sourceTree = "<group>"; };
 		184A87D61C55197100D4BC6D /* LipstickExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LipstickExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		184A87E91C55197100D4BC6D /* LipstickExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LipstickExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184A87F61C551A0500D4BC6D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184A87F91C551A0500D4BC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		184A87FB1C551A0500D4BC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
@@ -121,7 +154,6 @@
 		184A88071C551A2400D4BC6D /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		184A88151C551B2A00D4BC6D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		184A88161C551B2A00D4BC6D /* Lipstick.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lipstick.podspec; sourceTree = SOURCE_ROOT; };
-		184A88171C551B2A00D4BC6D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		184A88181C551B2A00D4BC6D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		184A881D1C551BA000D4BC6D /* LipstickDescriptionsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LipstickDescriptionsTest.swift; sourceTree = "<group>"; };
 		184A881E1C551BA000D4BC6D /* LipstickMatchingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LipstickMatchingTest.swift; sourceTree = "<group>"; };
@@ -130,18 +162,16 @@
 		184A88211C551BA000D4BC6D /* StyleTargetEqualityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleTargetEqualityTest.swift; sourceTree = "<group>"; };
 		184A88221C551BA000D4BC6D /* UIKitStyleManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitStyleManagerTest.swift; sourceTree = "<group>"; };
 		18640EAC1C57183000A9AC22 /* NSAttributedString+Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Builder.swift"; sourceTree = "<group>"; };
-		269603FAB6606708B710BD29 /* Pods_LipstickExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LipstickExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DAEC739741A09E57B0B1EFF /* Pods_Lipstick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lipstick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66740A38A5D17EC8BCA95C46 /* Pods-LipstickExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickExample/Pods-LipstickExample.debug.xcconfig"; sourceTree = "<group>"; };
-		6B924BD87709293953002E91 /* Pods-LipstickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickTests/Pods-LipstickTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9CFB61C2FFF8EAE99C2256F8 /* Pods-LipstickExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickExample/Pods-LipstickExample.release.xcconfig"; sourceTree = "<group>"; };
-		AA2C1D10FABBAA94167969C3 /* Pods-LipstickExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickExampleUITests/Pods-LipstickExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C83E94CE3656915A4CDC0D61 /* Pods-Lipstick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lipstick.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lipstick/Pods-Lipstick.release.xcconfig"; sourceTree = "<group>"; };
-		D28186CF79B48E6BE25F4AB5 /* Pods-LipstickExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickExampleUITests/Pods-LipstickExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D8CC3449E8DAB8A3CF20E7AF /* Pods-LipstickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickTests/Pods-LipstickTests.release.xcconfig"; sourceTree = "<group>"; };
-		DBE6B93D837C3B9C7BCDAC08 /* Pods_LipstickExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LipstickExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4125B9BC5B712647905C8EE /* Pods_LipstickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LipstickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E775ED0FF3F469F90C3E5077 /* Pods-Lipstick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lipstick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lipstick/Pods-Lipstick.debug.xcconfig"; sourceTree = "<group>"; };
+		18F3F97B1C8CB13000912FE6 /* 5E37641D-8AA1-3F5B-92EE-EEC2DAB5DD49.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "5E37641D-8AA1-3F5B-92EE-EEC2DAB5DD49.bcsymbolmap"; sourceTree = "<group>"; };
+		18F3F97C1C8CB13000912FE6 /* A6B57130-0CEC-32F0-AB15-2E206B0C7429.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "A6B57130-0CEC-32F0-AB15-2E206B0C7429.bcsymbolmap"; sourceTree = "<group>"; };
+		18F3F97D1C8CB13000912FE6 /* C943F1FD-81C4-3CDF-9B83-E2BE8E559743.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "C943F1FD-81C4-3CDF-9B83-E2BE8E559743.bcsymbolmap"; sourceTree = "<group>"; };
+		18F3F97E1C8CB13000912FE6 /* F51FEF9E-263B-359E-B779-C035E5350FFD.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "F51FEF9E-263B-359E-B779-C035E5350FFD.bcsymbolmap"; sourceTree = "<group>"; };
+		18F3F9811C8CB13000912FE6 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
+		18F3F9821C8CB13000912FE6 /* Nimble.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Nimble.framework.dSYM; sourceTree = "<group>"; };
+		18F3F9831C8CB13000912FE6 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
+		18F3F9841C8CB13000912FE6 /* Quick.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Quick.framework.dSYM; sourceTree = "<group>"; };
+		18F3F9851C8CB13000912FE6 /* SwiftKitStaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftKitStaging.framework; sourceTree = "<group>"; };
+		18F3F9861C8CB13000912FE6 /* SwiftKitStaging.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = SwiftKitStaging.framework.dSYM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312FF8638B36AAA259F4E7EE /* Pods_Lipstick.framework in Frameworks */,
+				18F3F9911C8CB13000912FE6 /* SwiftKitStaging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +188,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				184A87601C55049A00D4BC6D /* Lipstick.framework in Frameworks */,
-				53F7F63EBCCFA217971748DD /* Pods_LipstickTests.framework in Frameworks */,
+				18F3F99B1C8CB19000912FE6 /* Nimble.framework in Frameworks */,
+				18F3F99C1C8CB19000912FE6 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,15 +197,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74131AFEBB6A086CA42879AD /* Pods_LipstickExample.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		184A87E61C55197100D4BC6D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52D100F8FAD3DCE8C54D9B7B /* Pods_LipstickExampleUITests.framework in Frameworks */,
+				18F3F9A41C8CB70200912FE6 /* SwiftKitStaging.framework in Frameworks */,
+				18F3F9A21C8CB70200912FE6 /* Quick.framework in Frameworks */,
+				18F3F9A01C8CB70200912FE6 /* Nimble.framework in Frameworks */,
+				18F3F9A61C8CB70200912FE6 /* Lipstick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,14 +210,13 @@
 		184A874B1C55049A00D4BC6D = {
 			isa = PBXGroup;
 			children = (
+				18F3F97A1C8CB13000912FE6 /* Frameworks */,
 				184A88141C551B1A00D4BC6D /* Supporting files */,
 				184A87571C55049A00D4BC6D /* Source */,
 				184A87631C55049A00D4BC6D /* Tests */,
 				184A87D71C55197100D4BC6D /* LipstickExample */,
 				184A87EC1C55197100D4BC6D /* LipstickExampleUITests */,
 				184A87561C55049A00D4BC6D /* Products */,
-				AEADCDD60A7C68C1DAF1A792 /* Pods */,
-				7E310B6E51A6B6D4BE56112D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,7 +226,6 @@
 				184A87551C55049A00D4BC6D /* Lipstick.framework */,
 				184A875F1C55049A00D4BC6D /* LipstickTests.xctest */,
 				184A87D61C55197100D4BC6D /* LipstickExample.app */,
-				184A87E91C55197100D4BC6D /* LipstickExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -289,36 +313,27 @@
 			children = (
 				184A88151C551B2A00D4BC6D /* LICENSE */,
 				184A88161C551B2A00D4BC6D /* Lipstick.podspec */,
-				184A88171C551B2A00D4BC6D /* Podfile */,
 				184A88181C551B2A00D4BC6D /* README.md */,
 			);
 			name = "Supporting files";
 			sourceTree = "<group>";
 		};
-		7E310B6E51A6B6D4BE56112D /* Frameworks */ = {
+		18F3F97A1C8CB13000912FE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DAEC739741A09E57B0B1EFF /* Pods_Lipstick.framework */,
-				269603FAB6606708B710BD29 /* Pods_LipstickExample.framework */,
-				DBE6B93D837C3B9C7BCDAC08 /* Pods_LipstickExampleUITests.framework */,
-				E4125B9BC5B712647905C8EE /* Pods_LipstickTests.framework */,
+				18F3F97B1C8CB13000912FE6 /* 5E37641D-8AA1-3F5B-92EE-EEC2DAB5DD49.bcsymbolmap */,
+				18F3F97C1C8CB13000912FE6 /* A6B57130-0CEC-32F0-AB15-2E206B0C7429.bcsymbolmap */,
+				18F3F97D1C8CB13000912FE6 /* C943F1FD-81C4-3CDF-9B83-E2BE8E559743.bcsymbolmap */,
+				18F3F97E1C8CB13000912FE6 /* F51FEF9E-263B-359E-B779-C035E5350FFD.bcsymbolmap */,
+				18F3F9811C8CB13000912FE6 /* Nimble.framework */,
+				18F3F9821C8CB13000912FE6 /* Nimble.framework.dSYM */,
+				18F3F9831C8CB13000912FE6 /* Quick.framework */,
+				18F3F9841C8CB13000912FE6 /* Quick.framework.dSYM */,
+				18F3F9851C8CB13000912FE6 /* SwiftKitStaging.framework */,
+				18F3F9861C8CB13000912FE6 /* SwiftKitStaging.framework.dSYM */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AEADCDD60A7C68C1DAF1A792 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E775ED0FF3F469F90C3E5077 /* Pods-Lipstick.debug.xcconfig */,
-				C83E94CE3656915A4CDC0D61 /* Pods-Lipstick.release.xcconfig */,
-				66740A38A5D17EC8BCA95C46 /* Pods-LipstickExample.debug.xcconfig */,
-				9CFB61C2FFF8EAE99C2256F8 /* Pods-LipstickExample.release.xcconfig */,
-				AA2C1D10FABBAA94167969C3 /* Pods-LipstickExampleUITests.debug.xcconfig */,
-				D28186CF79B48E6BE25F4AB5 /* Pods-LipstickExampleUITests.release.xcconfig */,
-				6B924BD87709293953002E91 /* Pods-LipstickTests.debug.xcconfig */,
-				D8CC3449E8DAB8A3CF20E7AF /* Pods-LipstickTests.release.xcconfig */,
-			);
-			name = Pods;
+			path = Carthage/Build/iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,12 +354,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184A87691C55049A00D4BC6D /* Build configuration list for PBXNativeTarget "Lipstick" */;
 			buildPhases = (
-				2583013D9F056F1C43B62E9C /* Check Pods Manifest.lock */,
 				184A87501C55049A00D4BC6D /* Sources */,
 				184A87511C55049A00D4BC6D /* Frameworks */,
 				184A87521C55049A00D4BC6D /* Headers */,
 				184A87531C55049A00D4BC6D /* Resources */,
-				4DA09B4084CFD4473F71FB61 /* Copy Pods Resources */,
+				18F3F9931C8CB13C00912FE6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -359,12 +373,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184A876C1C55049A00D4BC6D /* Build configuration list for PBXNativeTarget "LipstickTests" */;
 			buildPhases = (
-				CB9C2E747F251FBFE797E7CF /* Check Pods Manifest.lock */,
 				184A875B1C55049A00D4BC6D /* Sources */,
 				184A875C1C55049A00D4BC6D /* Frameworks */,
 				184A875D1C55049A00D4BC6D /* Resources */,
-				C5D7FF5FDA2A9B241607522B /* Embed Pods Frameworks */,
-				8844A8B5D5B96D42946B3109 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -381,12 +392,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184A87F41C55197100D4BC6D /* Build configuration list for PBXNativeTarget "LipstickExample" */;
 			buildPhases = (
-				E2581352125AA3918809C20D /* Check Pods Manifest.lock */,
 				184A87D21C55197100D4BC6D /* Sources */,
 				184A87D31C55197100D4BC6D /* Frameworks */,
 				184A87D41C55197100D4BC6D /* Resources */,
-				869408205226664509DAB312 /* Embed Pods Frameworks */,
-				73622407EFE3BF2833BA2D01 /* Copy Pods Resources */,
+				18F3F9A81C8CB70200912FE6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -397,26 +406,6 @@
 			productName = LipstickExample;
 			productReference = 184A87D61C55197100D4BC6D /* LipstickExample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		184A87E81C55197100D4BC6D /* LipstickExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 184A87F51C55197100D4BC6D /* Build configuration list for PBXNativeTarget "LipstickExampleUITests" */;
-			buildPhases = (
-				6E1752D75B1E3F341C4A25DF /* Check Pods Manifest.lock */,
-				184A87E51C55197100D4BC6D /* Sources */,
-				184A87E61C55197100D4BC6D /* Frameworks */,
-				184A87E71C55197100D4BC6D /* Resources */,
-				EDF206EF5DBC4339B32ECF6C /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				184A87EB1C55197100D4BC6D /* PBXTargetDependency */,
-			);
-			name = LipstickExampleUITests;
-			productName = LipstickExampleUITests;
-			productReference = 184A87E91C55197100D4BC6D /* LipstickExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -438,10 +427,6 @@
 					184A87D51C55197100D4BC6D = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					184A87E81C55197100D4BC6D = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 184A87D51C55197100D4BC6D;
-					};
 				};
 			};
 			buildConfigurationList = 184A874F1C55049A00D4BC6D /* Build configuration list for PBXProject "Lipstick" */;
@@ -460,7 +445,6 @@
 				184A87541C55049A00D4BC6D /* Lipstick */,
 				184A875E1C55049A00D4BC6D /* LipstickTests */,
 				184A87D51C55197100D4BC6D /* LipstickExample */,
-				184A87E81C55197100D4BC6D /* LipstickExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -490,167 +474,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		184A87E71C55197100D4BC6D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2583013D9F056F1C43B62E9C /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		4DA09B4084CFD4473F71FB61 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lipstick/Pods-Lipstick-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E1752D75B1E3F341C4A25DF /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		73622407EFE3BF2833BA2D01 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipstickExample/Pods-LipstickExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		869408205226664509DAB312 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipstickExample/Pods-LipstickExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8844A8B5D5B96D42946B3109 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipstickTests/Pods-LipstickTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C5D7FF5FDA2A9B241607522B /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipstickTests/Pods-LipstickTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CB9C2E747F251FBFE797E7CF /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E2581352125AA3918809C20D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EDF206EF5DBC4339B32ECF6C /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LipstickExampleUITests/Pods-LipstickExampleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		184A87501C55049A00D4BC6D /* Sources */ = {
@@ -704,15 +528,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		184A87E51C55197100D4BC6D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				184A880B1C551A3A00D4BC6D /* LipstickExampleUITests.swift in Sources */,
-				184A880C1C551A3A00D4BC6D /* Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -720,11 +535,6 @@
 			isa = PBXTargetDependency;
 			target = 184A87541C55049A00D4BC6D /* Lipstick */;
 			targetProxy = 184A87611C55049A00D4BC6D /* PBXContainerItemProxy */;
-		};
-		184A87EB1C55197100D4BC6D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 184A87D51C55197100D4BC6D /* LipstickExample */;
-			targetProxy = 184A87EA1C55197100D4BC6D /* PBXContainerItemProxy */;
 		};
 		184A88301C551D0E00D4BC6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -849,13 +659,17 @@
 		};
 		184A876A1C55049A00D4BC6D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E775ED0FF3F469F90C3E5077 /* Pods-Lipstick.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -868,13 +682,17 @@
 		};
 		184A876B1C55049A00D4BC6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C83E94CE3656915A4CDC0D61 /* Pods-Lipstick.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -886,9 +704,12 @@
 		};
 		184A876D1C55049A00D4BC6D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B924BD87709293953002E91 /* Pods-LipstickTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickTests;
@@ -899,9 +720,12 @@
 		};
 		184A876E1C55049A00D4BC6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8CC3449E8DAB8A3CF20E7AF /* Pods-LipstickTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickTests;
@@ -912,10 +736,14 @@
 		};
 		184A87F01C55197100D4BC6D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66740A38A5D17EC8BCA95C46 /* Pods-LipstickExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickExample;
@@ -925,40 +753,18 @@
 		};
 		184A87F11C55197100D4BC6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CFB61C2FFF8EAE99C2256F8 /* Pods-LipstickExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		184A87F21C55197100D4BC6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA2C1D10FABBAA94167969C3 /* Pods-LipstickExampleUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = Example/Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LipstickExample;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		184A87F31C55197100D4BC6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D28186CF79B48E6BE25F4AB5 /* Pods-LipstickExampleUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = Example/Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LipstickExample;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
@@ -997,15 +803,6 @@
 			buildConfigurations = (
 				184A87F01C55197100D4BC6D /* Debug */,
 				184A87F11C55197100D4BC6D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		184A87F51C55197100D4BC6D /* Build configuration list for PBXNativeTarget "LipstickExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				184A87F21C55197100D4BC6D /* Debug */,
-				184A87F31C55197100D4BC6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
