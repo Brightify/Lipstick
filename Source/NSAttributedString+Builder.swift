@@ -151,10 +151,18 @@ extension String {
     }
     
     public func attributed(attributes: [Attribute]) -> NSAttributedString {
+        return NSAttributedString(string: self, attributes: attributes.toDictionary())
+    }
+}
+
+public extension SequenceType where Generator.Element == Attribute {
+    
+    public func toDictionary() -> [String: AnyObject] {
         var attributeDictionary: [String: AnyObject] = [:]
-        for attribute in attributes {
+        for attribute in self {
             attributeDictionary[attribute.name] = attribute.value
         }
-        return NSAttributedString(string: self, attributes: attributeDictionary)
+        return attributeDictionary
     }
+    
 }

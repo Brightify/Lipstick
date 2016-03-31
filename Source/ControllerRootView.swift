@@ -13,11 +13,7 @@ public class ControllerRootView: UIView {
     public let wrappedView: UIView?
     public override var frame: CGRect {
         didSet {
-            let frameModified = frame != oldValue
             wrappedView?.frame = bounds
-            if frameModified {
-                UIKitStyleManager.instance.scheduleStyleApplicationIfNeeded(self, animated: false)
-            }
         }
     }
     
@@ -54,5 +50,3 @@ public class ControllerRootView: UIView {
         }
     }
 }
-
-// MARK: - Lifecycle

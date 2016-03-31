@@ -7,40 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181368F11CAD700800B50644 /* UIButton+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368F01CAD700800B50644 /* UIButton+Lipstick.swift */; };
+		181368F31CAD708500B50644 /* UILabel+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368F21CAD708500B50644 /* UILabel+Lipstick.swift */; };
+		181368F51CAD70AB00B50644 /* UIWindow+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368F41CAD70AB00B50644 /* UIWindow+Lipstick.swift */; };
+		181368F71CAD710A00B50644 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368F61CAD710A00B50644 /* ContainerView.swift */; };
+		181368F91CAD718B00B50644 /* UITableView+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368F81CAD718B00B50644 /* UITableView+Lipstick.swift */; };
+		181368FB1CAD723400B50644 /* UICollectionView+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368FA1CAD723400B50644 /* UICollectionView+Lipstick.swift */; };
 		184A87591C55049A00D4BC6D /* Lipstick.h in Headers */ = {isa = PBXBuildFile; fileRef = 184A87581C55049A00D4BC6D /* Lipstick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		184A87601C55049A00D4BC6D /* Lipstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184A87551C55049A00D4BC6D /* Lipstick.framework */; };
-		184A87841C5505AA00D4BC6D /* AnyStyleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A876F1C5505AA00D4BC6D /* AnyStyleable.swift */; };
-		184A87851C5505AA00D4BC6D /* BaseStyleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87701C5505AA00D4BC6D /* BaseStyleBuilder.swift */; };
 		184A87861C5505AA00D4BC6D /* ColorCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87711C5505AA00D4BC6D /* ColorCache.swift */; };
 		184A87871C5505AA00D4BC6D /* ControllerRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87721C5505AA00D4BC6D /* ControllerRootView.swift */; };
-		184A87881C5505AA00D4BC6D /* DSLHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87731C5505AA00D4BC6D /* DSLHelpers.swift */; };
 		184A87891C5505AA00D4BC6D /* FontCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87741C5505AA00D4BC6D /* FontCache.swift */; };
-		184A878A1C5505AA00D4BC6D /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87751C5505AA00D4BC6D /* Style.swift */; };
 		184A878B1C5505AA00D4BC6D /* Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87761C5505AA00D4BC6D /* Styleable.swift */; };
-		184A878C1C5505AA00D4BC6D /* StyleApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87771C5505AA00D4BC6D /* StyleApplication.swift */; };
-		184A878D1C5505AA00D4BC6D /* StyleBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87781C5505AA00D4BC6D /* StyleBlueprint.swift */; };
-		184A878E1C5505AA00D4BC6D /* StyleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87791C5505AA00D4BC6D /* StyleBuilder.swift */; };
-		184A878F1C5505AA00D4BC6D /* StyleDeclarationPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877A1C5505AA00D4BC6D /* StyleDeclarationPart.swift */; };
-		184A87901C5505AA00D4BC6D /* StyledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877B1C5505AA00D4BC6D /* StyledItem.swift */; };
-		184A87911C5505AA00D4BC6D /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877C1C5505AA00D4BC6D /* StyleManager.swift */; };
-		184A87921C5505AA00D4BC6D /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877D1C5505AA00D4BC6D /* Stylesheet.swift */; };
-		184A87931C5505AA00D4BC6D /* StyleTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877E1C5505AA00D4BC6D /* StyleTarget.swift */; };
-		184A87941C5505AA00D4BC6D /* StylingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A877F1C5505AA00D4BC6D /* StylingDetails.swift */; };
 		184A87951C5505AA00D4BC6D /* StylingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87801C5505AA00D4BC6D /* StylingUtils.swift */; };
-		184A87961C5505AA00D4BC6D /* TypedStyleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87811C5505AA00D4BC6D /* TypedStyleBuilder.swift */; };
-		184A87971C5505AA00D4BC6D /* UIKitStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87821C5505AA00D4BC6D /* UIKitStyleManager.swift */; };
-		184A87981C5505AA00D4BC6D /* UIView+Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87831C5505AA00D4BC6D /* UIView+Styleable.swift */; };
+		184A87981C5505AA00D4BC6D /* UIView+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87831C5505AA00D4BC6D /* UIView+Lipstick.swift */; };
 		184A880E1C551A4800D4BC6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A87FC1C551A0500D4BC6D /* Images.xcassets */; };
 		184A88101C551A4800D4BC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87FE1C551A0500D4BC6D /* ViewController.swift */; };
 		184A88111C551A4B00D4BC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87F61C551A0500D4BC6D /* AppDelegate.swift */; };
 		184A88121C551A5200D4BC6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184A87F81C551A0500D4BC6D /* LaunchScreen.xib */; };
 		184A88131C551A5200D4BC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A87FA1C551A0500D4BC6D /* Main.storyboard */; };
-		184A88291C551BA500D4BC6D /* LipstickDescriptionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A881D1C551BA000D4BC6D /* LipstickDescriptionsTest.swift */; };
-		184A882A1C551BA500D4BC6D /* LipstickMatchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A881E1C551BA000D4BC6D /* LipstickMatchingTest.swift */; };
-		184A882B1C551BA500D4BC6D /* LipstickPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A881F1C551BA000D4BC6D /* LipstickPerformance.swift */; };
-		184A882C1C551BA500D4BC6D /* StyleManagerSingletonInstantiationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88201C551BA000D4BC6D /* StyleManagerSingletonInstantiationTest.swift */; };
-		184A882D1C551BA500D4BC6D /* StyleTargetEqualityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88211C551BA000D4BC6D /* StyleTargetEqualityTest.swift */; };
-		184A882E1C551BA500D4BC6D /* UIKitStyleManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A88221C551BA000D4BC6D /* UIKitStyleManagerTest.swift */; };
 		18640EAD1C57183000A9AC22 /* NSAttributedString+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18640EAC1C57183000A9AC22 /* NSAttributedString+Builder.swift */; };
 		18F3F9911C8CB13000912FE6 /* SwiftKitStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9851C8CB13000912FE6 /* SwiftKitStaging.framework */; };
 		18F3F99B1C8CB19000912FE6 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9811C8CB13000912FE6 /* Nimble.framework */; };
@@ -97,32 +82,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		181368F01CAD700800B50644 /* UIButton+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Lipstick.swift"; sourceTree = "<group>"; };
+		181368F21CAD708500B50644 /* UILabel+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Lipstick.swift"; sourceTree = "<group>"; };
+		181368F41CAD70AB00B50644 /* UIWindow+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Lipstick.swift"; sourceTree = "<group>"; };
+		181368F61CAD710A00B50644 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		181368F81CAD718B00B50644 /* UITableView+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Lipstick.swift"; sourceTree = "<group>"; };
+		181368FA1CAD723400B50644 /* UICollectionView+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Lipstick.swift"; sourceTree = "<group>"; };
 		184A87551C55049A00D4BC6D /* Lipstick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lipstick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184A87581C55049A00D4BC6D /* Lipstick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lipstick.h; sourceTree = "<group>"; };
 		184A875A1C55049A00D4BC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		184A875F1C55049A00D4BC6D /* LipstickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LipstickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184A87661C55049A00D4BC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		184A876F1C5505AA00D4BC6D /* AnyStyleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyStyleable.swift; sourceTree = "<group>"; };
-		184A87701C5505AA00D4BC6D /* BaseStyleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseStyleBuilder.swift; sourceTree = "<group>"; };
 		184A87711C5505AA00D4BC6D /* ColorCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCache.swift; sourceTree = "<group>"; };
 		184A87721C5505AA00D4BC6D /* ControllerRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerRootView.swift; sourceTree = "<group>"; };
-		184A87731C5505AA00D4BC6D /* DSLHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSLHelpers.swift; sourceTree = "<group>"; };
 		184A87741C5505AA00D4BC6D /* FontCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontCache.swift; sourceTree = "<group>"; };
-		184A87751C5505AA00D4BC6D /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		184A87761C5505AA00D4BC6D /* Styleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styleable.swift; sourceTree = "<group>"; };
-		184A87771C5505AA00D4BC6D /* StyleApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleApplication.swift; sourceTree = "<group>"; };
-		184A87781C5505AA00D4BC6D /* StyleBlueprint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleBlueprint.swift; sourceTree = "<group>"; };
-		184A87791C5505AA00D4BC6D /* StyleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleBuilder.swift; sourceTree = "<group>"; };
-		184A877A1C5505AA00D4BC6D /* StyleDeclarationPart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleDeclarationPart.swift; sourceTree = "<group>"; };
-		184A877B1C5505AA00D4BC6D /* StyledItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledItem.swift; sourceTree = "<group>"; };
-		184A877C1C5505AA00D4BC6D /* StyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleManager.swift; sourceTree = "<group>"; };
-		184A877D1C5505AA00D4BC6D /* Stylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stylesheet.swift; sourceTree = "<group>"; };
-		184A877E1C5505AA00D4BC6D /* StyleTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleTarget.swift; sourceTree = "<group>"; };
-		184A877F1C5505AA00D4BC6D /* StylingDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylingDetails.swift; sourceTree = "<group>"; };
 		184A87801C5505AA00D4BC6D /* StylingUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylingUtils.swift; sourceTree = "<group>"; };
-		184A87811C5505AA00D4BC6D /* TypedStyleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypedStyleBuilder.swift; sourceTree = "<group>"; };
-		184A87821C5505AA00D4BC6D /* UIKitStyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitStyleManager.swift; sourceTree = "<group>"; };
-		184A87831C5505AA00D4BC6D /* UIView+Styleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Styleable.swift"; sourceTree = "<group>"; };
+		184A87831C5505AA00D4BC6D /* UIView+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Lipstick.swift"; sourceTree = "<group>"; };
 		184A87D61C55197100D4BC6D /* LipstickExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LipstickExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184A87F61C551A0500D4BC6D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184A87F91C551A0500D4BC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -136,12 +112,6 @@
 		184A88151C551B2A00D4BC6D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		184A88161C551B2A00D4BC6D /* Lipstick.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lipstick.podspec; sourceTree = SOURCE_ROOT; };
 		184A88181C551B2A00D4BC6D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		184A881D1C551BA000D4BC6D /* LipstickDescriptionsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LipstickDescriptionsTest.swift; sourceTree = "<group>"; };
-		184A881E1C551BA000D4BC6D /* LipstickMatchingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LipstickMatchingTest.swift; sourceTree = "<group>"; };
-		184A881F1C551BA000D4BC6D /* LipstickPerformance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LipstickPerformance.swift; sourceTree = "<group>"; };
-		184A88201C551BA000D4BC6D /* StyleManagerSingletonInstantiationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleManagerSingletonInstantiationTest.swift; sourceTree = "<group>"; };
-		184A88211C551BA000D4BC6D /* StyleTargetEqualityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleTargetEqualityTest.swift; sourceTree = "<group>"; };
-		184A88221C551BA000D4BC6D /* UIKitStyleManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitStyleManagerTest.swift; sourceTree = "<group>"; };
 		18640EAC1C57183000A9AC22 /* NSAttributedString+Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Builder.swift"; sourceTree = "<group>"; };
 		18F3F9811C8CB13000912FE6 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
 		18F3F9821C8CB13000912FE6 /* Nimble.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Nimble.framework.dSYM; sourceTree = "<group>"; };
@@ -184,6 +154,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181368EF1CAD6FFC00B50644 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				181368F61CAD710A00B50644 /* ContainerView.swift */,
+				184A87721C5505AA00D4BC6D /* ControllerRootView.swift */,
+				184A87831C5505AA00D4BC6D /* UIView+Lipstick.swift */,
+				181368F01CAD700800B50644 /* UIButton+Lipstick.swift */,
+				181368F21CAD708500B50644 /* UILabel+Lipstick.swift */,
+				181368F41CAD70AB00B50644 /* UIWindow+Lipstick.swift */,
+				181368F81CAD718B00B50644 /* UITableView+Lipstick.swift */,
+				181368FA1CAD723400B50644 /* UICollectionView+Lipstick.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
 		184A874B1C55049A00D4BC6D = {
 			isa = PBXGroup;
 			children = (
@@ -210,27 +195,11 @@
 		184A87571C55049A00D4BC6D /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				184A876F1C5505AA00D4BC6D /* AnyStyleable.swift */,
-				184A87701C5505AA00D4BC6D /* BaseStyleBuilder.swift */,
+				181368EF1CAD6FFC00B50644 /* UIKit */,
 				184A87711C5505AA00D4BC6D /* ColorCache.swift */,
-				184A87721C5505AA00D4BC6D /* ControllerRootView.swift */,
-				184A87731C5505AA00D4BC6D /* DSLHelpers.swift */,
 				184A87741C5505AA00D4BC6D /* FontCache.swift */,
-				184A87751C5505AA00D4BC6D /* Style.swift */,
 				184A87761C5505AA00D4BC6D /* Styleable.swift */,
-				184A87771C5505AA00D4BC6D /* StyleApplication.swift */,
-				184A87781C5505AA00D4BC6D /* StyleBlueprint.swift */,
-				184A87791C5505AA00D4BC6D /* StyleBuilder.swift */,
-				184A877A1C5505AA00D4BC6D /* StyleDeclarationPart.swift */,
-				184A877B1C5505AA00D4BC6D /* StyledItem.swift */,
-				184A877C1C5505AA00D4BC6D /* StyleManager.swift */,
-				184A877D1C5505AA00D4BC6D /* Stylesheet.swift */,
-				184A877E1C5505AA00D4BC6D /* StyleTarget.swift */,
-				184A877F1C5505AA00D4BC6D /* StylingDetails.swift */,
 				184A87801C5505AA00D4BC6D /* StylingUtils.swift */,
-				184A87811C5505AA00D4BC6D /* TypedStyleBuilder.swift */,
-				184A87821C5505AA00D4BC6D /* UIKitStyleManager.swift */,
-				184A87831C5505AA00D4BC6D /* UIView+Styleable.swift */,
 				184A87581C55049A00D4BC6D /* Lipstick.h */,
 				184A875A1C55049A00D4BC6D /* Info.plist */,
 				18640EAC1C57183000A9AC22 /* NSAttributedString+Builder.swift */,
@@ -241,12 +210,6 @@
 		184A87631C55049A00D4BC6D /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				184A881D1C551BA000D4BC6D /* LipstickDescriptionsTest.swift */,
-				184A881E1C551BA000D4BC6D /* LipstickMatchingTest.swift */,
-				184A881F1C551BA000D4BC6D /* LipstickPerformance.swift */,
-				184A88201C551BA000D4BC6D /* StyleManagerSingletonInstantiationTest.swift */,
-				184A88211C551BA000D4BC6D /* StyleTargetEqualityTest.swift */,
-				184A88221C551BA000D4BC6D /* UIKitStyleManagerTest.swift */,
 				184A87661C55049A00D4BC6D /* Info.plist */,
 			);
 			path = Tests;
@@ -453,28 +416,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184A87971C5505AA00D4BC6D /* UIKitStyleManager.swift in Sources */,
-				184A878C1C5505AA00D4BC6D /* StyleApplication.swift in Sources */,
-				184A878E1C5505AA00D4BC6D /* StyleBuilder.swift in Sources */,
-				184A87921C5505AA00D4BC6D /* Stylesheet.swift in Sources */,
-				184A87941C5505AA00D4BC6D /* StylingDetails.swift in Sources */,
-				184A87851C5505AA00D4BC6D /* BaseStyleBuilder.swift in Sources */,
-				184A87931C5505AA00D4BC6D /* StyleTarget.swift in Sources */,
 				184A87861C5505AA00D4BC6D /* ColorCache.swift in Sources */,
 				18640EAD1C57183000A9AC22 /* NSAttributedString+Builder.swift in Sources */,
-				184A87901C5505AA00D4BC6D /* StyledItem.swift in Sources */,
-				184A87961C5505AA00D4BC6D /* TypedStyleBuilder.swift in Sources */,
+				181368F11CAD700800B50644 /* UIButton+Lipstick.swift in Sources */,
 				184A87871C5505AA00D4BC6D /* ControllerRootView.swift in Sources */,
 				184A87891C5505AA00D4BC6D /* FontCache.swift in Sources */,
-				184A87881C5505AA00D4BC6D /* DSLHelpers.swift in Sources */,
-				184A87981C5505AA00D4BC6D /* UIView+Styleable.swift in Sources */,
-				184A878F1C5505AA00D4BC6D /* StyleDeclarationPart.swift in Sources */,
+				184A87981C5505AA00D4BC6D /* UIView+Lipstick.swift in Sources */,
 				184A87951C5505AA00D4BC6D /* StylingUtils.swift in Sources */,
-				184A878A1C5505AA00D4BC6D /* Style.swift in Sources */,
-				184A87841C5505AA00D4BC6D /* AnyStyleable.swift in Sources */,
+				181368F51CAD70AB00B50644 /* UIWindow+Lipstick.swift in Sources */,
+				181368F31CAD708500B50644 /* UILabel+Lipstick.swift in Sources */,
+				181368F91CAD718B00B50644 /* UITableView+Lipstick.swift in Sources */,
+				181368FB1CAD723400B50644 /* UICollectionView+Lipstick.swift in Sources */,
+				181368F71CAD710A00B50644 /* ContainerView.swift in Sources */,
 				184A878B1C5505AA00D4BC6D /* Styleable.swift in Sources */,
-				184A878D1C5505AA00D4BC6D /* StyleBlueprint.swift in Sources */,
-				184A87911C5505AA00D4BC6D /* StyleManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,12 +436,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184A882D1C551BA500D4BC6D /* StyleTargetEqualityTest.swift in Sources */,
-				184A882A1C551BA500D4BC6D /* LipstickMatchingTest.swift in Sources */,
-				184A882B1C551BA500D4BC6D /* LipstickPerformance.swift in Sources */,
-				184A882C1C551BA500D4BC6D /* StyleManagerSingletonInstantiationTest.swift in Sources */,
-				184A882E1C551BA500D4BC6D /* UIKitStyleManagerTest.swift in Sources */,
-				184A88291C551BA500D4BC6D /* LipstickDescriptionsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
