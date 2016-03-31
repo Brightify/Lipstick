@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ContainerView: UIView {
-    override func addSubview(view: UIView) {
+public class ContainerView: UIView {
+    public override func addSubview(view: UIView) {
         view.translatesAutoresizingMaskIntoConstraints = false
         
         super.addSubview(view)
     }
     
-    override class func requiresConstraintBasedLayout() -> Bool {
+    public override class func requiresConstraintBasedLayout() -> Bool {
         return true
     }
 }

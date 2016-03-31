@@ -9,13 +9,13 @@
 import UIKit
 
 extension UIButton {
-    convenience init(styles: (UIButton -> Void)...) {
+    public convenience init(styles: (UIButton -> Void)...) {
         self.init()
         
         styled(with: combine(styles))
     }
     
-    convenience init(title: String, styles: (UIButton -> Void)...) {
+    public convenience init(title: String, styles: (UIButton -> Void)...) {
         self.init()
         
         self.setTitle(title, forState: .Normal)
@@ -25,7 +25,7 @@ extension UIButton {
 }
 
 extension UIButton {
-    convenience init(title: String) {
+    public convenience init(title: String) {
         self.init()
         
         setTitle(title, forState: .Normal)

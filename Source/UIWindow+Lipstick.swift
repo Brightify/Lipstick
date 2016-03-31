@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIWindow {
-    convenience init(frame: CGRect, styles: (UIWindow -> Void)...) {
+    public convenience init(frame: CGRect, styles: (UIWindow -> Void)...) {
         self.init(frame: frame)
         
         styled(with: combine(styles))

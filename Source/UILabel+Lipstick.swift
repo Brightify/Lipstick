@@ -9,7 +9,7 @@
 import UIKit
 
 extension UILabel {
-    convenience init(text: String, styles: (UILabel -> Void)...) {
+    public convenience init(text: String, styles: (UILabel -> Void)...) {
         self.init()
         
         self.text = text
@@ -19,7 +19,7 @@ extension UILabel {
 }
 
 extension UILabel {
-    convenience init(text: String) {
+    public convenience init(text: String) {
         self.init()
         
         self.text = text

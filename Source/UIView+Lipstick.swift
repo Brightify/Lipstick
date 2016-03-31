@@ -12,7 +12,7 @@ import SwiftKitStaging
 extension UIView: Styleable { }
 
 extension UIView {
-    func children(children: UIView...) -> UIView {
+    public func children(children: UIView...) -> UIView {
         children.forEach(addSubview)
         return self
     }

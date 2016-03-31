@@ -8,21 +8,21 @@
 
 import UIKit
 
-func style<T: Styleable>(type: T.Type, styling: T -> Void) -> T -> Void {
+public func style<T: Styleable>(type: T.Type, styling: T -> Void) -> T -> Void {
     return styling
 }
 
-func combine<T: Styleable>(styles: (T -> Void)...) -> T -> Void {
+public func combine<T: Styleable>(styles: (T -> Void)...) -> T -> Void {
     return combine(styles)
 }
 
-func combine<T: Styleable>(styles: [T -> Void]) -> T -> Void {
+public func combine<T: Styleable>(styles: [T -> Void]) -> T -> Void {
     return { target in
         styles.forEach { $0(target) }
     }
 }
 
-func extend<T: Styleable>(parent: T -> Void, styling: T -> Void) -> T -> Void {
+public func extend<T: Styleable>(parent: T -> Void, styling: T -> Void) -> T -> Void {
     return combine(parent, styling)
 }
 
