@@ -12,6 +12,6 @@ extension UITableView {
     public convenience init(style: UITableViewStyle, styles: (UITableView -> Void)...) {
         self.init(frame: CGRectZero, style: style)
         
-        styled(with: combine(styles))
+        styled(using: combine(styles))
     }
 }

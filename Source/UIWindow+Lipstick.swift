@@ -12,6 +12,6 @@ extension UIWindow {
     public convenience init(frame: CGRect, styles: (UIWindow -> Void)...) {
         self.init(frame: frame)
         
-        styled(with: combine(styles))
+        styled(using: combine(styles))
     }
 }

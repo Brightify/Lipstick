@@ -26,6 +26,24 @@ public func extend<T: Styleable>(parent: T -> Void, styling: T -> Void) -> T -> 
     return combine(parent, styling)
 }
 
+public func style<T>(type: T.Type, styling: T -> Void) -> T -> Void {
+    return styling
+}
+
+public func combine<T>(styles: (T -> Void)...) -> T -> Void {
+    return combine(styles)
+}
+
+public func combine<T>(styles: [T -> Void]) -> T -> Void {
+    return { target in
+        styles.forEach { $0(target) }
+    }
+}
+
+public func extend<T>(parent: T -> Void, styling: T -> Void) -> T -> Void {
+    return combine(parent, styling)
+}
+
 postfix operator % { }
 
 public postfix func %(input: CGFloat) -> CGFloat {

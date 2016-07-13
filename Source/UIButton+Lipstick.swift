@@ -12,7 +12,7 @@ extension UIButton {
     public convenience init(styles: (UIButton -> Void)...) {
         self.init()
         
-        styled(with: combine(styles))
+        styled(using: combine(styles))
     }
     
     public convenience init(title: String, styles: (UIButton -> Void)...) {
@@ -20,7 +20,7 @@ extension UIButton {
         
         self.setTitle(title, forState: .Normal)
         
-        styled(with: combine(styles))
+        styled(using: combine(styles))
     }
 }
 

@@ -14,7 +14,7 @@ extension UILabel {
         
         self.text = text
         
-        styled(with: combine(styles))
+        styled(using: combine(styles))
     }
 }
 

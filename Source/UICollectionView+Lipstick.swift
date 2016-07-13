@@ -12,6 +12,6 @@ extension UICollectionView {
     public convenience init(collectionViewLayout layout: UICollectionViewLayout, styles: (UICollectionView -> Void)...) {
         self.init(frame: CGRectZero, collectionViewLayout: layout)
         
-        styled(with: combine(styles))
+        styled(using: combine(styles))
     }
 }
