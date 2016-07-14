@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Lipstick"
-  s.version          = "0.3.0"
+  s.version          = "0.3.1"
   s.summary          = "UIKit styling library written in Swift."
   s.description      = <<-DESC
                         Forget writing styles in CSS and having huge load times for large applications.
