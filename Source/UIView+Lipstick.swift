@@ -10,10 +10,3 @@ import UIKit
 import SwiftKitStaging
 
 extension UIView: Styleable { }
-
-extension UIView {
-    public func children(children: UIView...) -> UIView {
-        children.forEach(addSubview)
-        return self
-    }
-}
