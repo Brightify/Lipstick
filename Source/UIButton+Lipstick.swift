@@ -9,18 +9,18 @@
 import UIKit
 
 extension UIButton {
-    public convenience init(styles: (UIButton -> Void)...) {
+    public convenience init(styles: (@escaping (UIButton) -> Void)...) {
         self.init()
-        
-        styled(using: combine(styles))
+
+        apply(styles: styles)
     }
     
-    public convenience init(title: String, styles: (UIButton -> Void)...) {
+    public convenience init(title: String, styles: (@escaping (UIButton) -> Void)...) {
         self.init()
         
-        self.setTitle(title, forState: .Normal)
-        
-        styled(using: combine(styles))
+        self.setTitle(title, for: UIControlState())
+
+        apply(styles: styles)
     }
 }
 
@@ -28,24 +28,24 @@ extension UIButton {
     public convenience init(title: String) {
         self.init()
         
-        setTitle(title, forState: .Normal)
+        setTitle(title, for: UIControlState())
     }
     
-    public func setBackgroundColor(color: UIColor, forState state: UIControlState) {
-        setBackgroundImage(UIButton.imageWithColor(color), forState: state)
+    public func setBackgroundColor(_ color: UIColor, forState state: UIControlState) {
+        setBackgroundImage(UIButton.imageWithColor(color), for: state)
     }
     
-    private static func imageWithColor(color: UIColor) -> UIImage {
-        let rect = CGRectMake(0.0, 0.0, 1.0, 1.0);
+    fileprivate static func imageWithColor(_ color: UIColor) -> UIImage {
+        let rect = CGRect(x: 0.0, y: 0.0, width: 1.0, height: 1.0);
         UIGraphicsBeginImageContext(rect.size);
         let context = UIGraphicsGetCurrentContext();
         
-        CGContextSetFillColorWithColor(context, color.CGColor);
-        CGContextFillRect(context, rect);
+        context?.setFillColor(color.cgColor);
+        context?.fill(rect);
         
         let image = UIGraphicsGetImageFromCurrentImageContext();
         UIGraphicsEndImageContext();
         
-        return image;
+        return image!;
     }
 }

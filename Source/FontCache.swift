@@ -27,10 +27,10 @@ func == (lhs: FontCacheKey, rhs: FontCacheKey) -> Bool {
 }
 
 struct FontCache {
-    private static var descriptorCache: [String: UIFontDescriptor] = [:]
-    private static var fontCache: [FontCacheKey: UIFont] = [:]
+    fileprivate static var descriptorCache: [String: UIFontDescriptor] = [:]
+    fileprivate static var fontCache: [FontCacheKey: UIFont] = [:]
     
-    static func fontDescriptorNamed(name: String, size: CGFloat) -> UIFontDescriptor {
+    static func fontDescriptorNamed(_ name: String, size: CGFloat) -> UIFontDescriptor {
         let key = keyForName(name, size: size)
         if let cachedDescriptor = descriptorCache[key] {
             return cachedDescriptor
@@ -41,7 +41,7 @@ struct FontCache {
         }
     }
     
-    static func fontNamed(name: String, size: CGFloat) -> UIFont {
+    static func fontNamed(_ name: String, size: CGFloat) -> UIFont {
         let descriptor = fontDescriptorNamed(name, size: size)
         let key = FontCacheKey(descriptor: descriptor, size: size)
         if let cachedFont = fontCache[key] {
@@ -53,7 +53,7 @@ struct FontCache {
         }
     }
     
-    static func fontDescribedBy(descriptor: UIFontDescriptor, size: CGFloat) -> UIFont {
+    static func fontDescribedBy(_ descriptor: UIFontDescriptor, size: CGFloat) -> UIFont {
         let key = FontCacheKey(descriptor: descriptor, size: size)
         if let cachedFont = fontCache[key] {
             return cachedFont
@@ -64,7 +64,7 @@ struct FontCache {
         }
     }
     
-    private static func keyForName(name: String, size: CGFloat) -> String {
+    fileprivate static func keyForName(_ name: String, size: CGFloat) -> String {
         return "\(name)__\(size)"
     }
 }

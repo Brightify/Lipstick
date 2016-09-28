@@ -9,9 +9,9 @@
 import UIKit
 
 extension UITableView {
-    public convenience init(style: UITableViewStyle, styles: (UITableView -> Void)...) {
-        self.init(frame: CGRectZero, style: style)
+    public convenience init(style: UITableViewStyle, styles: ((UITableView) -> Void)...) {
+        self.init(frame: CGRect.zero, style: style)
         
-        styled(using: combine(styles))
+        styles.forEach(apply)
     }
 }

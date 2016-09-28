@@ -9,9 +9,9 @@
 import UIKit
 
 struct ColorCache {
-    private static var cache: [String: UIColor] = [:]
+    fileprivate static var cache: [String: UIColor] = [:]
     
-    static func colorFromHex(hexString: String) -> UIColor {
+    static func colorFromHex(_ hexString: String) -> UIColor {
         if let cachedColor = cache[hexString] {
             return cachedColor
         } else {

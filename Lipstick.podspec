@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = "Lipstick"
-  s.version          = "0.3.1"
-  s.summary          = "UIKit styling library written in Swift."
+  s.version          = "0.4.0"
+  s.summary          = "Helpers for UIKit to make styling easier."
   s.description      = <<-DESC
-                        Forget writing styles in CSS and having huge load times for large applications.
+                        Multiple methods and helpers that cache fonts and colors by their names and hex strings.
                        DESC
 
   s.homepage         = "https://github.com/SwiftKit/Lipstick"
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/**/*.swift'
   s.frameworks = 'UIKit'
-  s.dependency 'SwiftKitStaging'
+  s.dependency 'SwiftKitStaging', '~> 0.2'
 end

@@ -8,17 +8,17 @@
 
 import UIKit
 
-public class ControllerRootView: UIView {
+open class ControllerRootView: UIView {
     
-    public let wrappedView: UIView?
-    public override var frame: CGRect {
+    open let wrappedView: UIView?
+    open override var frame: CGRect {
         didSet {
             wrappedView?.frame = bounds
         }
     }
     
     public convenience init() {
-        self.init(frame: CGRectZero)
+        self.init(frame: CGRect.zero)
     }
     
     public override init(frame: CGRect) {
@@ -38,15 +38,15 @@ public class ControllerRootView: UIView {
     
     public init(wrap: UIView) {
         wrappedView = wrap
-        super.init(frame: CGRectZero)
+        super.init(frame: CGRect.zero)
         
         addSubview(wrap)
     }
     
-    private func loadView() {
-        autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
-        if frame == CGRectZero {
-            frame = window?.bounds ?? UIScreen.mainScreen().bounds
+    fileprivate func loadView() {
+        autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        if frame == CGRect.zero {
+            frame = window?.bounds ?? UIScreen.main.bounds
         }
     }
 }

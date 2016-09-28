@@ -9,9 +9,9 @@
 import UIKit
 
 extension UICollectionView {
-    public convenience init(collectionViewLayout layout: UICollectionViewLayout, styles: (UICollectionView -> Void)...) {
-        self.init(frame: CGRectZero, collectionViewLayout: layout)
+    public convenience init(collectionViewLayout layout: UICollectionViewLayout, styles: ((UICollectionView) -> Void)...) {
+        self.init(frame: CGRect.zero, collectionViewLayout: layout)
         
-        styled(using: combine(styles))
+        styles.forEach(apply)
     }
 }

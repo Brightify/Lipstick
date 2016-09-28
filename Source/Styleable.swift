@@ -6,33 +6,29 @@
 //  Copyright © 2016 Tadeas Kriz. All rights reserved.
 //
 
-public protocol Styleable: class {
-    func applyStyle(style: Self -> Void)
-}
+public protocol Styleable: class { }
 
 extension Styleable {
-    public typealias Style = Self -> Void
+    public typealias Style = (Self) -> Void
     
-    public func applyStyle(style: Style) {
+    public func apply(style: Style) {
         style(self)
     }
     
-    public func applyStyles(styles: Style...) {
-        applyStyles(styles)
+    public func apply(styles: Style...) {
+
     }
     
-    public func applyStyles(styles: [Style]) {
-        styles.forEach(applyStyle)
+    public func apply(styles: [(Self) -> Void]) {
+        styles.forEach(apply)
     }
     
     public func styled(using styles: Style...) -> Self {
-        return styled(using: styles)
+        return self // styled(using: styles)
     }
     
     public func styled(using styles: [Style]) -> Self {
-        styles.forEach {
-            applyStyle($0)
-        }
+        apply(styles: styles)
         return self
     }
 }

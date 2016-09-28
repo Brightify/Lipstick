@@ -9,12 +9,12 @@
 import UIKit
 
 extension UILabel {
-    public convenience init(text: String, styles: (UILabel -> Void)...) {
+    public convenience init(text: String, styles: (@escaping (UILabel) -> Void)...) {
         self.init()
         
         self.text = text
         
-        styled(using: combine(styles))
+        apply(styles: styles)
     }
 }
 

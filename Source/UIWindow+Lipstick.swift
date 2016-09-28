@@ -9,9 +9,9 @@
 import UIKit
 
 extension UIWindow {
-    public convenience init(frame: CGRect, styles: (UIWindow -> Void)...) {
+    public convenience init(frame: CGRect, styles: (@escaping (UIWindow) -> Void)...) {
         self.init(frame: frame)
         
-        styled(using: combine(styles))
+        apply(styles: styles)
     }
 }
