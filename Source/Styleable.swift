@@ -16,15 +16,16 @@ extension Styleable {
     }
     
     public func apply(styles: Style...) {
-
+        styles.forEach(apply(style:))
     }
     
     public func apply(styles: [(Self) -> Void]) {
-        styles.forEach(apply)
+        styles.forEach(apply(style:))
     }
     
     public func styled(using styles: Style...) -> Self {
-        return self // styled(using: styles)
+        styles.forEach(apply(style:))
+        return self
     }
     
     public func styled(using styles: [Style]) -> Self {

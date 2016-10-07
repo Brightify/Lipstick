@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Lipstick"
-  s.version          = "0.4.0"
+  s.version          = "0.4.1"
   s.summary          = "Helpers for UIKit to make styling easier."
   s.description      = <<-DESC
                         Multiple methods and helpers that cache fonts and colors by their names and hex strings.
