@@ -1,35 +1,41 @@
 //
 //  Styleable.swift
-//  SwiftKit
+//  Lipstick
 //
 //  Created by Tadeas Kriz on 07/01/16.
-//  Copyright © 2016 Tadeas Kriz. All rights reserved.
+//  Copyright © 2016 Brightify. All rights reserved.
 //
 
-public protocol Styleable: class { }
+import UIKit
+
+public protocol Styleable { }
+
+extension UIView: Styleable { }
+
+public typealias Style<T> = (T) -> Void
 
 extension Styleable {
-    public typealias Style = (Self) -> Void
     
-    public func apply(style: Style) {
+    public func apply(style: Style<Self>) {
         style(self)
     }
     
-    public func apply(styles: Style...) {
+    public func apply(styles: Style<Self>...) {
         styles.forEach(apply(style:))
     }
     
-    public func apply(styles: [(Self) -> Void]) {
+    public func apply(styles: [Style<Self>]) {
         styles.forEach(apply(style:))
     }
     
-    public func styled(using styles: Style...) -> Self {
+    public func styled(using styles: Style<Self>...) -> Self {
         styles.forEach(apply(style:))
         return self
     }
     
-    public func styled(using styles: [Style]) -> Self {
+    public func styled(using styles: [Style<Self>]) -> Self {
         apply(styles: styles)
         return self
     }
 }
+

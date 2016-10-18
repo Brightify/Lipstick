@@ -8,16 +8,14 @@ Pod::Spec.new do |s|
 
   s.homepage         = "https://github.com/SwiftKit/Lipstick"
   s.license          = 'MIT'
-  s.author           = { "Tadeas Kriz" => "tadeas@brightify.org" }
+  s.author           = { "Tadeas Kriz" => "tadeas@brightify.org", "Filip Dolnik" => "filip@brightify.org" }
   s.source           = {
       :git => "https://github.com/SwiftKit/Lipstick.git",
       :tag => s.version.to_s
   }
 
   s.platform     = :ios, '8.0'
-  s.requires_arc = true
-
   s.source_files = 'Source/**/*.swift'
   s.frameworks = 'UIKit'
-  s.dependency 'SwiftKitStaging', '~> 0.2'
+  s.requires_arc = true
 end
