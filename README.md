@@ -22,7 +22,8 @@ pod "Lipstick"
 
 ## Author
 
-Tadeas Kriz, tadeas@brightify.org
+* Tadeas Kriz, [tadeas@brightify.org](mailto:tadeas@brightify.org)
+* Filip Dolník, [filip@brightify.org](mailto:filip@brightify.org)
 
 ## License
 

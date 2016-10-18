@@ -7,118 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		181368F11CAD700800B50644 /* UIButton+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368F01CAD700800B50644 /* UIButton+Lipstick.swift */; };
-		181368F31CAD708500B50644 /* UILabel+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368F21CAD708500B50644 /* UILabel+Lipstick.swift */; };
-		181368F51CAD70AB00B50644 /* UIWindow+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368F41CAD70AB00B50644 /* UIWindow+Lipstick.swift */; };
-		181368F71CAD710A00B50644 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368F61CAD710A00B50644 /* ContainerView.swift */; };
-		181368F91CAD718B00B50644 /* UITableView+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368F81CAD718B00B50644 /* UITableView+Lipstick.swift */; };
-		181368FB1CAD723400B50644 /* UICollectionView+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181368FA1CAD723400B50644 /* UICollectionView+Lipstick.swift */; };
-		184A87591C55049A00D4BC6D /* Lipstick.h in Headers */ = {isa = PBXBuildFile; fileRef = 184A87581C55049A00D4BC6D /* Lipstick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		184A87601C55049A00D4BC6D /* Lipstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184A87551C55049A00D4BC6D /* Lipstick.framework */; };
-		184A87861C5505AA00D4BC6D /* ColorCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87711C5505AA00D4BC6D /* ColorCache.swift */; };
-		184A87871C5505AA00D4BC6D /* ControllerRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87721C5505AA00D4BC6D /* ControllerRootView.swift */; };
-		184A87891C5505AA00D4BC6D /* FontCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87741C5505AA00D4BC6D /* FontCache.swift */; };
 		184A878B1C5505AA00D4BC6D /* Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87761C5505AA00D4BC6D /* Styleable.swift */; };
-		184A87951C5505AA00D4BC6D /* StylingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87801C5505AA00D4BC6D /* StylingUtils.swift */; };
-		184A87981C5505AA00D4BC6D /* UIView+Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87831C5505AA00D4BC6D /* UIView+Lipstick.swift */; };
-		184A880E1C551A4800D4BC6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A87FC1C551A0500D4BC6D /* Images.xcassets */; };
-		184A88101C551A4800D4BC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87FE1C551A0500D4BC6D /* ViewController.swift */; };
-		184A88111C551A4B00D4BC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87F61C551A0500D4BC6D /* AppDelegate.swift */; };
-		184A88121C551A5200D4BC6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184A87F81C551A0500D4BC6D /* LaunchScreen.xib */; };
-		184A88131C551A5200D4BC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A87FA1C551A0500D4BC6D /* Main.storyboard */; };
-		18640EAD1C57183000A9AC22 /* NSAttributedString+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18640EAC1C57183000A9AC22 /* NSAttributedString+Builder.swift */; };
-		18F3F9911C8CB13000912FE6 /* SwiftKitStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9851C8CB13000912FE6 /* SwiftKitStaging.framework */; };
-		18F3F99B1C8CB19000912FE6 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9811C8CB13000912FE6 /* Nimble.framework */; };
-		18F3F99C1C8CB19000912FE6 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9831C8CB13000912FE6 /* Quick.framework */; };
-		18F3F9A01C8CB70200912FE6 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9811C8CB13000912FE6 /* Nimble.framework */; };
-		18F3F9A11C8CB70200912FE6 /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9811C8CB13000912FE6 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		18F3F9A21C8CB70200912FE6 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9831C8CB13000912FE6 /* Quick.framework */; };
-		18F3F9A31C8CB70200912FE6 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9831C8CB13000912FE6 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		18F3F9A41C8CB70200912FE6 /* SwiftKitStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9851C8CB13000912FE6 /* SwiftKitStaging.framework */; };
-		18F3F9A51C8CB70200912FE6 /* SwiftKitStaging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F9851C8CB13000912FE6 /* SwiftKitStaging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		18F3F9A61C8CB70200912FE6 /* Lipstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184A87551C55049A00D4BC6D /* Lipstick.framework */; };
-		18F3F9A71C8CB70200912FE6 /* Lipstick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 184A87551C55049A00D4BC6D /* Lipstick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		184A87951C5505AA00D4BC6D /* PercentUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A87801C5505AA00D4BC6D /* PercentUtils.swift */; };
+		18640EAD1C57183000A9AC22 /* NSAttributedString+Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18640EAC1C57183000A9AC22 /* NSAttributedString+Attribute.swift */; };
+		DC1674881DB62C1600231E72 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674871DB62C1600231E72 /* Deprecated.swift */; };
+		DC16748D1DB62C6900231E72 /* CGAffineTransform+Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674891DB62C6900231E72 /* CGAffineTransform+Shortcut.swift */; };
+		DC16748E1DB62C6900231E72 /* CGPoint+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16748A1DB62C6900231E72 /* CGPoint+Init.swift */; };
+		DC16748F1DB62C6900231E72 /* CGRect+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16748B1DB62C6900231E72 /* CGRect+Init.swift */; };
+		DC1674901DB62C6900231E72 /* CGSize+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16748C1DB62C6900231E72 /* CGSize+Init.swift */; };
+		DC1674941DB62C7100231E72 /* UIEdgeInsets+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674911DB62C7100231E72 /* UIEdgeInsets+Init.swift */; };
+		DC1674951DB62C7100231E72 /* UIFont+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674921DB62C7100231E72 /* UIFont+Init.swift */; };
+		DC1674961DB62C7100231E72 /* UIOffset+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674931DB62C7100231E72 /* UIOffset+Init.swift */; };
+		DC16749E1DB630CE00231E72 /* StylableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16749D1DB630CE00231E72 /* StylableTest.swift */; };
+		DC1674A01DB630CE00231E72 /* Lipstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184A87551C55049A00D4BC6D /* Lipstick.framework */; };
+		DC1674AE1DB63EDC00231E72 /* UITableView+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674AD1DB63EDC00231E72 /* UITableView+InitTest.swift */; };
+		DC1674B01DB642CE00231E72 /* UIOffset+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674AF1DB642CE00231E72 /* UIOffset+InitTest.swift */; };
+		DC1674B21DB6462800231E72 /* UILabel+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674B11DB6462800231E72 /* UILabel+InitTest.swift */; };
+		DC1674B41DB6470500231E72 /* UIFont+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674B31DB6470500231E72 /* UIFont+InitTest.swift */; };
+		DC1674B61DB6486600231E72 /* UIEdgeInsets+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674B51DB6486600231E72 /* UIEdgeInsets+InitTest.swift */; };
+		DC1674B81DB6563500231E72 /* UIColor+ModificatorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674B71DB6563500231E72 /* UIColor+ModificatorsTest.swift */; };
+		DC1674BA1DB6624B00231E72 /* UIColor+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674B91DB6624B00231E72 /* UIColor+InitTest.swift */; };
+		DC1674BC1DB6642300231E72 /* UICollectionView+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674BB1DB6642300231E72 /* UICollectionView+InitTest.swift */; };
+		DC5B837D1DB6654A007751F6 /* UIButton+UtilsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B837C1DB6654A007751F6 /* UIButton+UtilsTest.swift */; };
+		DC5B837F1DB6A6CA007751F6 /* PercentUtilsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B837E1DB6A6CA007751F6 /* PercentUtilsTest.swift */; };
+		DC5B83811DB6A738007751F6 /* CGSize+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B83801DB6A738007751F6 /* CGSize+InitTest.swift */; };
+		DC5B83831DB6A9DC007751F6 /* CGRect+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B83821DB6A9DC007751F6 /* CGRect+InitTest.swift */; };
+		DC5B83851DB6ABBD007751F6 /* CGPoint+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B83841DB6ABBD007751F6 /* CGPoint+InitTest.swift */; };
+		DC5B83871DB6AC33007751F6 /* CGAffineTransform+ShortcutTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B83861DB6AC33007751F6 /* CGAffineTransform+ShortcutTest.swift */; };
+		DC5B83891DB6B049007751F6 /* NSAttributedString+AttributeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B83881DB6B049007751F6 /* NSAttributedString+AttributeTest.swift */; };
+		DC5B838C1DB6B30C007751F6 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B838A1DB6B26E007751F6 /* Attribute.swift */; };
+		DC5B838E1DB6B7C8007751F6 /* AttributeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B838D1DB6B7C8007751F6 /* AttributeTest.swift */; };
+		DC60E5941DB3637B00C15728 /* UIColor+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60E5931DB3637B00C15728 /* UIColor+Init.swift */; };
+		DC60E5961DB3740F00C15728 /* UIColor+Modificators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60E5951DB3740F00C15728 /* UIColor+Modificators.swift */; };
+		DC60E5A01DB3819D00C15728 /* UIButton+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60E59A1DB3819D00C15728 /* UIButton+Utils.swift */; };
+		DC60E5A11DB3819D00C15728 /* UICollectionView+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60E59B1DB3819D00C15728 /* UICollectionView+Init.swift */; };
+		DC60E5A21DB3819D00C15728 /* UILabel+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60E59C1DB3819D00C15728 /* UILabel+Init.swift */; };
+		DC60E5A31DB3819D00C15728 /* UITableView+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60E59D1DB3819D00C15728 /* UITableView+Init.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		184A87611C55049A00D4BC6D /* PBXContainerItemProxy */ = {
+		DC1674A11DB630CE00231E72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 184A874C1C55049A00D4BC6D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 184A87541C55049A00D4BC6D;
 			remoteInfo = Lipstick;
-		};
-		184A882F1C551D0E00D4BC6D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 184A874C1C55049A00D4BC6D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 184A87541C55049A00D4BC6D;
-			remoteInfo = Lipstick;
-		};
-		184A88311C551DC000D4BC6D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 184A874C1C55049A00D4BC6D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 184A87D51C55197100D4BC6D;
-			remoteInfo = LipstickExample;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		18F3F9A81C8CB70200912FE6 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				18F3F9A31C8CB70200912FE6 /* Quick.framework in Embed Frameworks */,
-				18F3F9A71C8CB70200912FE6 /* Lipstick.framework in Embed Frameworks */,
-				18F3F9A51C8CB70200912FE6 /* SwiftKitStaging.framework in Embed Frameworks */,
-				18F3F9A11C8CB70200912FE6 /* Nimble.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		181368F01CAD700800B50644 /* UIButton+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Lipstick.swift"; sourceTree = "<group>"; };
-		181368F21CAD708500B50644 /* UILabel+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Lipstick.swift"; sourceTree = "<group>"; };
-		181368F41CAD70AB00B50644 /* UIWindow+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Lipstick.swift"; sourceTree = "<group>"; };
-		181368F61CAD710A00B50644 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
-		181368F81CAD718B00B50644 /* UITableView+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Lipstick.swift"; sourceTree = "<group>"; };
-		181368FA1CAD723400B50644 /* UICollectionView+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Lipstick.swift"; sourceTree = "<group>"; };
 		184A87551C55049A00D4BC6D /* Lipstick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lipstick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		184A87581C55049A00D4BC6D /* Lipstick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lipstick.h; sourceTree = "<group>"; };
 		184A875A1C55049A00D4BC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		184A875F1C55049A00D4BC6D /* LipstickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LipstickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		184A87661C55049A00D4BC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		184A87711C5505AA00D4BC6D /* ColorCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCache.swift; sourceTree = "<group>"; };
-		184A87721C5505AA00D4BC6D /* ControllerRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerRootView.swift; sourceTree = "<group>"; };
-		184A87741C5505AA00D4BC6D /* FontCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontCache.swift; sourceTree = "<group>"; };
 		184A87761C5505AA00D4BC6D /* Styleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styleable.swift; sourceTree = "<group>"; };
-		184A87801C5505AA00D4BC6D /* StylingUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylingUtils.swift; sourceTree = "<group>"; };
-		184A87831C5505AA00D4BC6D /* UIView+Lipstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Lipstick.swift"; sourceTree = "<group>"; };
-		184A87D61C55197100D4BC6D /* LipstickExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LipstickExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		184A87F61C551A0500D4BC6D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		184A87F91C551A0500D4BC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		184A87FB1C551A0500D4BC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		184A87FC1C551A0500D4BC6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		184A87FD1C551A0500D4BC6D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		184A87FE1C551A0500D4BC6D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		184A88051C551A2400D4BC6D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		184A88061C551A2400D4BC6D /* LipstickExampleUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LipstickExampleUITests.swift; sourceTree = "<group>"; };
-		184A88071C551A2400D4BC6D /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		184A88151C551B2A00D4BC6D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
-		184A88161C551B2A00D4BC6D /* Lipstick.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lipstick.podspec; sourceTree = SOURCE_ROOT; };
-		184A88181C551B2A00D4BC6D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		18640EAC1C57183000A9AC22 /* NSAttributedString+Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Builder.swift"; sourceTree = "<group>"; };
-		18F3F9811C8CB13000912FE6 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
-		18F3F9821C8CB13000912FE6 /* Nimble.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Nimble.framework.dSYM; sourceTree = "<group>"; };
-		18F3F9831C8CB13000912FE6 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
-		18F3F9841C8CB13000912FE6 /* Quick.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Quick.framework.dSYM; sourceTree = "<group>"; };
-		18F3F9851C8CB13000912FE6 /* SwiftKitStaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftKitStaging.framework; sourceTree = "<group>"; };
-		18F3F9861C8CB13000912FE6 /* SwiftKitStaging.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = SwiftKitStaging.framework.dSYM; sourceTree = "<group>"; };
+		184A87801C5505AA00D4BC6D /* PercentUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentUtils.swift; sourceTree = "<group>"; };
+		18640EAC1C57183000A9AC22 /* NSAttributedString+Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Attribute.swift"; sourceTree = "<group>"; };
+		DC1674871DB62C1600231E72 /* Deprecated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deprecated.swift; sourceTree = "<group>"; };
+		DC1674891DB62C6900231E72 /* CGAffineTransform+Shortcut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+Shortcut.swift"; sourceTree = "<group>"; };
+		DC16748A1DB62C6900231E72 /* CGPoint+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Init.swift"; sourceTree = "<group>"; };
+		DC16748B1DB62C6900231E72 /* CGRect+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Init.swift"; sourceTree = "<group>"; };
+		DC16748C1DB62C6900231E72 /* CGSize+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Init.swift"; sourceTree = "<group>"; };
+		DC1674911DB62C7100231E72 /* UIEdgeInsets+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Init.swift"; sourceTree = "<group>"; };
+		DC1674921DB62C7100231E72 /* UIFont+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Init.swift"; sourceTree = "<group>"; };
+		DC1674931DB62C7100231E72 /* UIOffset+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIOffset+Init.swift"; sourceTree = "<group>"; };
+		DC16749B1DB630CD00231E72 /* LipstickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LipstickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC16749D1DB630CE00231E72 /* StylableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylableTest.swift; sourceTree = "<group>"; };
+		DC16749F1DB630CE00231E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1674AD1DB63EDC00231E72 /* UITableView+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+InitTest.swift"; sourceTree = "<group>"; };
+		DC1674AF1DB642CE00231E72 /* UIOffset+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIOffset+InitTest.swift"; sourceTree = "<group>"; };
+		DC1674B11DB6462800231E72 /* UILabel+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+InitTest.swift"; sourceTree = "<group>"; };
+		DC1674B31DB6470500231E72 /* UIFont+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+InitTest.swift"; sourceTree = "<group>"; };
+		DC1674B51DB6486600231E72 /* UIEdgeInsets+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+InitTest.swift"; sourceTree = "<group>"; };
+		DC1674B71DB6563500231E72 /* UIColor+ModificatorsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ModificatorsTest.swift"; sourceTree = "<group>"; };
+		DC1674B91DB6624B00231E72 /* UIColor+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+InitTest.swift"; sourceTree = "<group>"; };
+		DC1674BB1DB6642300231E72 /* UICollectionView+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+InitTest.swift"; sourceTree = "<group>"; };
+		DC5B837C1DB6654A007751F6 /* UIButton+UtilsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+UtilsTest.swift"; sourceTree = "<group>"; };
+		DC5B837E1DB6A6CA007751F6 /* PercentUtilsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentUtilsTest.swift; sourceTree = "<group>"; };
+		DC5B83801DB6A738007751F6 /* CGSize+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+InitTest.swift"; sourceTree = "<group>"; };
+		DC5B83821DB6A9DC007751F6 /* CGRect+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+InitTest.swift"; sourceTree = "<group>"; };
+		DC5B83841DB6ABBD007751F6 /* CGPoint+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+InitTest.swift"; sourceTree = "<group>"; };
+		DC5B83861DB6AC33007751F6 /* CGAffineTransform+ShortcutTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+ShortcutTest.swift"; sourceTree = "<group>"; };
+		DC5B83881DB6B049007751F6 /* NSAttributedString+AttributeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+AttributeTest.swift"; sourceTree = "<group>"; };
+		DC5B838A1DB6B26E007751F6 /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		DC5B838D1DB6B7C8007751F6 /* AttributeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeTest.swift; sourceTree = "<group>"; };
+		DC60E5931DB3637B00C15728 /* UIColor+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Init.swift"; sourceTree = "<group>"; };
+		DC60E5951DB3740F00C15728 /* UIColor+Modificators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Modificators.swift"; sourceTree = "<group>"; };
+		DC60E59A1DB3819D00C15728 /* UIButton+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Utils.swift"; sourceTree = "<group>"; };
+		DC60E59B1DB3819D00C15728 /* UICollectionView+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Init.swift"; sourceTree = "<group>"; };
+		DC60E59C1DB3819D00C15728 /* UILabel+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Init.swift"; sourceTree = "<group>"; };
+		DC60E59D1DB3819D00C15728 /* UITableView+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Init.swift"; sourceTree = "<group>"; };
+		DC8FE0231DB2305000F9FA5B /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		DC8FE0241DB2305000F9FA5B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DC8FE0251DB2305000F9FA5B /* Lipstick.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lipstick.podspec; sourceTree = "<group>"; };
+		DC8FE0261DB2305000F9FA5B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DC8FE0321DB2318200F9FA5B /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,58 +107,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F3F9911C8CB13000912FE6 /* SwiftKitStaging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		184A875C1C55049A00D4BC6D /* Frameworks */ = {
+		DC1674981DB630CD00231E72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184A87601C55049A00D4BC6D /* Lipstick.framework in Frameworks */,
-				18F3F99B1C8CB19000912FE6 /* Nimble.framework in Frameworks */,
-				18F3F99C1C8CB19000912FE6 /* Quick.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		184A87D31C55197100D4BC6D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18F3F9A41C8CB70200912FE6 /* SwiftKitStaging.framework in Frameworks */,
-				18F3F9A21C8CB70200912FE6 /* Quick.framework in Frameworks */,
-				18F3F9A01C8CB70200912FE6 /* Nimble.framework in Frameworks */,
-				18F3F9A61C8CB70200912FE6 /* Lipstick.framework in Frameworks */,
+				DC1674A01DB630CE00231E72 /* Lipstick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		181368EF1CAD6FFC00B50644 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				181368F61CAD710A00B50644 /* ContainerView.swift */,
-				184A87721C5505AA00D4BC6D /* ControllerRootView.swift */,
-				184A87831C5505AA00D4BC6D /* UIView+Lipstick.swift */,
-				181368F01CAD700800B50644 /* UIButton+Lipstick.swift */,
-				181368F21CAD708500B50644 /* UILabel+Lipstick.swift */,
-				181368F41CAD70AB00B50644 /* UIWindow+Lipstick.swift */,
-				181368F81CAD718B00B50644 /* UITableView+Lipstick.swift */,
-				181368FA1CAD723400B50644 /* UICollectionView+Lipstick.swift */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
 		184A874B1C55049A00D4BC6D = {
 			isa = PBXGroup;
 			children = (
-				18F3F97A1C8CB13000912FE6 /* Frameworks */,
-				184A88141C551B1A00D4BC6D /* Supporting files */,
+				DC8FE0231DB2305000F9FA5B /* CHANGELOG.md */,
+				DC8FE0241DB2305000F9FA5B /* LICENSE */,
+				DC8FE0251DB2305000F9FA5B /* Lipstick.podspec */,
+				DC8FE0261DB2305000F9FA5B /* README.md */,
+				DC8FE0321DB2318200F9FA5B /* .travis.yml */,
 				184A87571C55049A00D4BC6D /* Source */,
-				184A87631C55049A00D4BC6D /* Tests */,
-				184A87D71C55197100D4BC6D /* LipstickExample */,
-				184A87EC1C55197100D4BC6D /* LipstickExampleUITests */,
+				DC16749C1DB630CE00231E72 /* LipstickTests */,
 				184A87561C55049A00D4BC6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -186,8 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				184A87551C55049A00D4BC6D /* Lipstick.framework */,
-				184A875F1C55049A00D4BC6D /* LipstickTests.xctest */,
-				184A87D61C55197100D4BC6D /* LipstickExample.app */,
+				DC16749B1DB630CD00231E72 /* LipstickTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,81 +147,52 @@
 		184A87571C55049A00D4BC6D /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				181368EF1CAD6FFC00B50644 /* UIKit */,
-				184A87711C5505AA00D4BC6D /* ColorCache.swift */,
-				184A87741C5505AA00D4BC6D /* FontCache.swift */,
-				184A87761C5505AA00D4BC6D /* Styleable.swift */,
-				184A87801C5505AA00D4BC6D /* StylingUtils.swift */,
-				184A87581C55049A00D4BC6D /* Lipstick.h */,
 				184A875A1C55049A00D4BC6D /* Info.plist */,
-				18640EAC1C57183000A9AC22 /* NSAttributedString+Builder.swift */,
+				DC5B838A1DB6B26E007751F6 /* Attribute.swift */,
+				DC1674891DB62C6900231E72 /* CGAffineTransform+Shortcut.swift */,
+				DC16748A1DB62C6900231E72 /* CGPoint+Init.swift */,
+				DC16748B1DB62C6900231E72 /* CGRect+Init.swift */,
+				DC16748C1DB62C6900231E72 /* CGSize+Init.swift */,
+				DC1674871DB62C1600231E72 /* Deprecated.swift */,
+				18640EAC1C57183000A9AC22 /* NSAttributedString+Attribute.swift */,
+				184A87801C5505AA00D4BC6D /* PercentUtils.swift */,
+				184A87761C5505AA00D4BC6D /* Styleable.swift */,
+				DC60E59A1DB3819D00C15728 /* UIButton+Utils.swift */,
+				DC60E59B1DB3819D00C15728 /* UICollectionView+Init.swift */,
+				DC60E5931DB3637B00C15728 /* UIColor+Init.swift */,
+				DC60E5951DB3740F00C15728 /* UIColor+Modificators.swift */,
+				DC1674911DB62C7100231E72 /* UIEdgeInsets+Init.swift */,
+				DC1674921DB62C7100231E72 /* UIFont+Init.swift */,
+				DC60E59C1DB3819D00C15728 /* UILabel+Init.swift */,
+				DC1674931DB62C7100231E72 /* UIOffset+Init.swift */,
+				DC60E59D1DB3819D00C15728 /* UITableView+Init.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		184A87631C55049A00D4BC6D /* Tests */ = {
+		DC16749C1DB630CE00231E72 /* LipstickTests */ = {
 			isa = PBXGroup;
 			children = (
-				184A87661C55049A00D4BC6D /* Info.plist */,
+				DC16749F1DB630CE00231E72 /* Info.plist */,
+				DC5B838D1DB6B7C8007751F6 /* AttributeTest.swift */,
+				DC5B83861DB6AC33007751F6 /* CGAffineTransform+ShortcutTest.swift */,
+				DC5B83841DB6ABBD007751F6 /* CGPoint+InitTest.swift */,
+				DC5B83821DB6A9DC007751F6 /* CGRect+InitTest.swift */,
+				DC5B83801DB6A738007751F6 /* CGSize+InitTest.swift */,
+				DC5B83881DB6B049007751F6 /* NSAttributedString+AttributeTest.swift */,
+				DC5B837E1DB6A6CA007751F6 /* PercentUtilsTest.swift */,
+				DC16749D1DB630CE00231E72 /* StylableTest.swift */,
+				DC5B837C1DB6654A007751F6 /* UIButton+UtilsTest.swift */,
+				DC1674BB1DB6642300231E72 /* UICollectionView+InitTest.swift */,
+				DC1674B91DB6624B00231E72 /* UIColor+InitTest.swift */,
+				DC1674B71DB6563500231E72 /* UIColor+ModificatorsTest.swift */,
+				DC1674B51DB6486600231E72 /* UIEdgeInsets+InitTest.swift */,
+				DC1674B31DB6470500231E72 /* UIFont+InitTest.swift */,
+				DC1674B11DB6462800231E72 /* UILabel+InitTest.swift */,
+				DC1674AF1DB642CE00231E72 /* UIOffset+InitTest.swift */,
+				DC1674AD1DB63EDC00231E72 /* UITableView+InitTest.swift */,
 			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		184A87D71C55197100D4BC6D /* LipstickExample */ = {
-			isa = PBXGroup;
-			children = (
-				184A87F61C551A0500D4BC6D /* AppDelegate.swift */,
-				184A87F71C551A0500D4BC6D /* Base.lproj */,
-				184A87FC1C551A0500D4BC6D /* Images.xcassets */,
-				184A87FD1C551A0500D4BC6D /* Info.plist */,
-				184A87FE1C551A0500D4BC6D /* ViewController.swift */,
-			);
-			name = LipstickExample;
-			path = Example/Source;
-			sourceTree = "<group>";
-		};
-		184A87EC1C55197100D4BC6D /* LipstickExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				184A88051C551A2400D4BC6D /* Info.plist */,
-				184A88061C551A2400D4BC6D /* LipstickExampleUITests.swift */,
-				184A88071C551A2400D4BC6D /* Tests.swift */,
-			);
-			name = LipstickExampleUITests;
-			path = Example/Tests;
-			sourceTree = "<group>";
-		};
-		184A87F71C551A0500D4BC6D /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				184A87F81C551A0500D4BC6D /* LaunchScreen.xib */,
-				184A87FA1C551A0500D4BC6D /* Main.storyboard */,
-			);
-			path = Base.lproj;
-			sourceTree = "<group>";
-		};
-		184A88141C551B1A00D4BC6D /* Supporting files */ = {
-			isa = PBXGroup;
-			children = (
-				184A88151C551B2A00D4BC6D /* LICENSE */,
-				184A88161C551B2A00D4BC6D /* Lipstick.podspec */,
-				184A88181C551B2A00D4BC6D /* README.md */,
-			);
-			name = "Supporting files";
-			sourceTree = "<group>";
-		};
-		18F3F97A1C8CB13000912FE6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				18F3F9811C8CB13000912FE6 /* Nimble.framework */,
-				18F3F9821C8CB13000912FE6 /* Nimble.framework.dSYM */,
-				18F3F9831C8CB13000912FE6 /* Quick.framework */,
-				18F3F9841C8CB13000912FE6 /* Quick.framework.dSYM */,
-				18F3F9851C8CB13000912FE6 /* SwiftKitStaging.framework */,
-				18F3F9861C8CB13000912FE6 /* SwiftKitStaging.framework.dSYM */,
-			);
-			name = Frameworks;
-			path = Carthage/Build/iOS;
+			path = LipstickTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +202,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184A87591C55049A00D4BC6D /* Lipstick.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,43 +226,23 @@
 			productReference = 184A87551C55049A00D4BC6D /* Lipstick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		184A875E1C55049A00D4BC6D /* LipstickTests */ = {
+		DC16749A1DB630CD00231E72 /* LipstickTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 184A876C1C55049A00D4BC6D /* Build configuration list for PBXNativeTarget "LipstickTests" */;
+			buildConfigurationList = DC1674A31DB630CE00231E72 /* Build configuration list for PBXNativeTarget "LipstickTests" */;
 			buildPhases = (
-				184A875B1C55049A00D4BC6D /* Sources */,
-				184A875C1C55049A00D4BC6D /* Frameworks */,
-				184A875D1C55049A00D4BC6D /* Resources */,
+				DC1674971DB630CD00231E72 /* Sources */,
+				DC1674981DB630CD00231E72 /* Frameworks */,
+				DC1674991DB630CD00231E72 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				184A87621C55049A00D4BC6D /* PBXTargetDependency */,
-				184A88321C551DC000D4BC6D /* PBXTargetDependency */,
+				DC1674A21DB630CE00231E72 /* PBXTargetDependency */,
 			);
 			name = LipstickTests;
 			productName = LipstickTests;
-			productReference = 184A875F1C55049A00D4BC6D /* LipstickTests.xctest */;
+			productReference = DC16749B1DB630CD00231E72 /* LipstickTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		184A87D51C55197100D4BC6D /* LipstickExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 184A87F41C55197100D4BC6D /* Build configuration list for PBXNativeTarget "LipstickExample" */;
-			buildPhases = (
-				184A87D21C55197100D4BC6D /* Sources */,
-				184A87D31C55197100D4BC6D /* Frameworks */,
-				184A87D41C55197100D4BC6D /* Resources */,
-				18F3F9A81C8CB70200912FE6 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				184A88301C551D0E00D4BC6D /* PBXTargetDependency */,
-			);
-			name = LipstickExample;
-			productName = LipstickExample;
-			productReference = 184A87D61C55197100D4BC6D /* LipstickExample.app */;
-			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -348,7 +250,7 @@
 		184A874C1C55049A00D4BC6D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Brightify;
 				TargetAttributes = {
@@ -356,14 +258,9 @@
 						CreatedOnToolsVersion = 7.2;
 						LastSwiftMigration = 0800;
 					};
-					184A875E1C55049A00D4BC6D = {
-						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0800;
-						TestTargetID = 184A87D51C55197100D4BC6D;
-					};
-					184A87D51C55197100D4BC6D = {
-						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0800;
+					DC16749A1DB630CD00231E72 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -381,8 +278,7 @@
 			projectRoot = "";
 			targets = (
 				184A87541C55049A00D4BC6D /* Lipstick */,
-				184A875E1C55049A00D4BC6D /* LipstickTests */,
-				184A87D51C55197100D4BC6D /* LipstickExample */,
+				DC16749A1DB630CD00231E72 /* LipstickTests */,
 			);
 		};
 /* End PBXProject section */
@@ -395,20 +291,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		184A875D1C55049A00D4BC6D /* Resources */ = {
+		DC1674991DB630CD00231E72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		184A87D41C55197100D4BC6D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				184A88121C551A5200D4BC6D /* LaunchScreen.xib in Resources */,
-				184A880E1C551A4800D4BC6D /* Images.xcassets in Resources */,
-				184A88131C551A5200D4BC6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,76 +305,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184A87861C5505AA00D4BC6D /* ColorCache.swift in Sources */,
-				18640EAD1C57183000A9AC22 /* NSAttributedString+Builder.swift in Sources */,
-				181368F11CAD700800B50644 /* UIButton+Lipstick.swift in Sources */,
-				184A87871C5505AA00D4BC6D /* ControllerRootView.swift in Sources */,
-				184A87891C5505AA00D4BC6D /* FontCache.swift in Sources */,
-				184A87981C5505AA00D4BC6D /* UIView+Lipstick.swift in Sources */,
-				184A87951C5505AA00D4BC6D /* StylingUtils.swift in Sources */,
-				181368F51CAD70AB00B50644 /* UIWindow+Lipstick.swift in Sources */,
-				181368F31CAD708500B50644 /* UILabel+Lipstick.swift in Sources */,
-				181368F91CAD718B00B50644 /* UITableView+Lipstick.swift in Sources */,
-				181368FB1CAD723400B50644 /* UICollectionView+Lipstick.swift in Sources */,
-				181368F71CAD710A00B50644 /* ContainerView.swift in Sources */,
+				DC1674961DB62C7100231E72 /* UIOffset+Init.swift in Sources */,
+				18640EAD1C57183000A9AC22 /* NSAttributedString+Attribute.swift in Sources */,
+				DC60E5A01DB3819D00C15728 /* UIButton+Utils.swift in Sources */,
+				DC60E5A31DB3819D00C15728 /* UITableView+Init.swift in Sources */,
+				DC16748F1DB62C6900231E72 /* CGRect+Init.swift in Sources */,
+				DC1674881DB62C1600231E72 /* Deprecated.swift in Sources */,
+				DC1674951DB62C7100231E72 /* UIFont+Init.swift in Sources */,
+				DC60E5A21DB3819D00C15728 /* UILabel+Init.swift in Sources */,
+				184A87951C5505AA00D4BC6D /* PercentUtils.swift in Sources */,
+				DC16748D1DB62C6900231E72 /* CGAffineTransform+Shortcut.swift in Sources */,
 				184A878B1C5505AA00D4BC6D /* Styleable.swift in Sources */,
+				DC1674941DB62C7100231E72 /* UIEdgeInsets+Init.swift in Sources */,
+				DC5B838C1DB6B30C007751F6 /* Attribute.swift in Sources */,
+				DC16748E1DB62C6900231E72 /* CGPoint+Init.swift in Sources */,
+				DC60E5961DB3740F00C15728 /* UIColor+Modificators.swift in Sources */,
+				DC60E5A11DB3819D00C15728 /* UICollectionView+Init.swift in Sources */,
+				DC60E5941DB3637B00C15728 /* UIColor+Init.swift in Sources */,
+				DC1674901DB62C6900231E72 /* CGSize+Init.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		184A875B1C55049A00D4BC6D /* Sources */ = {
+		DC1674971DB630CD00231E72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		184A87D21C55197100D4BC6D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				184A88111C551A4B00D4BC6D /* AppDelegate.swift in Sources */,
-				184A88101C551A4800D4BC6D /* ViewController.swift in Sources */,
+				DC5B83831DB6A9DC007751F6 /* CGRect+InitTest.swift in Sources */,
+				DC5B83891DB6B049007751F6 /* NSAttributedString+AttributeTest.swift in Sources */,
+				DC5B83811DB6A738007751F6 /* CGSize+InitTest.swift in Sources */,
+				DC5B83871DB6AC33007751F6 /* CGAffineTransform+ShortcutTest.swift in Sources */,
+				DC1674B61DB6486600231E72 /* UIEdgeInsets+InitTest.swift in Sources */,
+				DC16749E1DB630CE00231E72 /* StylableTest.swift in Sources */,
+				DC1674BC1DB6642300231E72 /* UICollectionView+InitTest.swift in Sources */,
+				DC5B837D1DB6654A007751F6 /* UIButton+UtilsTest.swift in Sources */,
+				DC5B83851DB6ABBD007751F6 /* CGPoint+InitTest.swift in Sources */,
+				DC1674B81DB6563500231E72 /* UIColor+ModificatorsTest.swift in Sources */,
+				DC1674B01DB642CE00231E72 /* UIOffset+InitTest.swift in Sources */,
+				DC5B838E1DB6B7C8007751F6 /* AttributeTest.swift in Sources */,
+				DC1674B41DB6470500231E72 /* UIFont+InitTest.swift in Sources */,
+				DC1674BA1DB6624B00231E72 /* UIColor+InitTest.swift in Sources */,
+				DC1674B21DB6462800231E72 /* UILabel+InitTest.swift in Sources */,
+				DC5B837F1DB6A6CA007751F6 /* PercentUtilsTest.swift in Sources */,
+				DC1674AE1DB63EDC00231E72 /* UITableView+InitTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		184A87621C55049A00D4BC6D /* PBXTargetDependency */ = {
+		DC1674A21DB630CE00231E72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 184A87541C55049A00D4BC6D /* Lipstick */;
-			targetProxy = 184A87611C55049A00D4BC6D /* PBXContainerItemProxy */;
-		};
-		184A88301C551D0E00D4BC6D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 184A87541C55049A00D4BC6D /* Lipstick */;
-			targetProxy = 184A882F1C551D0E00D4BC6D /* PBXContainerItemProxy */;
-		};
-		184A88321C551DC000D4BC6D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 184A87D51C55197100D4BC6D /* LipstickExample */;
-			targetProxy = 184A88311C551DC000D4BC6D /* PBXContainerItemProxy */;
+			targetProxy = DC1674A11DB630CE00231E72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		184A87F81C551A0500D4BC6D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				184A87F91C551A0500D4BC6D /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		184A87FA1C551A0500D4BC6D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				184A87FB1C551A0500D4BC6D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		184A87671C55049A00D4BC6D /* Debug */ = {
@@ -595,10 +465,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -620,10 +486,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -634,71 +496,32 @@
 			};
 			name = Release;
 		};
-		184A876D1C55049A00D4BC6D /* Debug */ = {
+		DC1674A41DB630CE00231E72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = LipstickTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LipstickExample.app/LipstickExample";
-			};
-			name = Debug;
-		};
-		184A876E1C55049A00D4BC6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LipstickExample.app/LipstickExample";
-			};
-			name = Release;
-		};
-		184A87F01C55197100D4BC6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Example/Source/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		184A87F11C55197100D4BC6D /* Release */ = {
+		DC1674A51DB630CE00231E72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Example/Source/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickExample;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = LipstickTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.LipstickTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -725,20 +548,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		184A876C1C55049A00D4BC6D /* Build configuration list for PBXNativeTarget "LipstickTests" */ = {
+		DC1674A31DB630CE00231E72 /* Build configuration list for PBXNativeTarget "LipstickTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				184A876D1C55049A00D4BC6D /* Debug */,
-				184A876E1C55049A00D4BC6D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		184A87F41C55197100D4BC6D /* Build configuration list for PBXNativeTarget "LipstickExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				184A87F01C55197100D4BC6D /* Debug */,
-				184A87F11C55197100D4BC6D /* Release */,
+				DC1674A41DB630CE00231E72 /* Debug */,
+				DC1674A51DB630CE00231E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
