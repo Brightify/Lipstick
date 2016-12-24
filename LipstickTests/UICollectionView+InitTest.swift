@@ -6,16 +6,21 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 import Lipstick
 
-class UICollectionViewInitTest: XCTestCase {
+class UICollectionViewInitTest: QuickSpec {
     
-    func testInit() {
-        let layout = UICollectionViewFlowLayout()
-        let view = UICollectionView(collectionViewLayout: layout)
-        
-        XCTAssertEqual(CGRect.zero, view.frame)
-        XCTAssertEqual(layout, view.collectionViewLayout)
+    override func spec() {
+        describe("UICollectionView init") {
+            it("creates UICollectionView with zero CGRect") {
+                let layout = UICollectionViewFlowLayout()
+                let view = UICollectionView(collectionViewLayout: layout)
+                
+                expect(view.frame) == CGRect.zero
+                expect(view.collectionViewLayout) == layout
+            }
+        }
     }
 }

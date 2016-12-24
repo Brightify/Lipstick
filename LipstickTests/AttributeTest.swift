@@ -6,15 +6,20 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 import Lipstick
 
-class AttributeTest: XCTestCase {
+class AttributeTest: QuickSpec {
     
-    func testToDictionary() {
-        let attributes = [Attribute.baselineOffset(1), Attribute.expansion(2)].toDictionary()
-        
-        XCTAssertEqual(1, attributes[NSBaselineOffsetAttributeName] as! Float)
-        XCTAssertEqual(2 , attributes[NSExpansionAttributeName] as! Float)
+    override func spec() {
+        describe("toDictionary") {
+            it("creates dictionary from array of attributes") {
+                let attributes = [Attribute.baselineOffset(1), Attribute.expansion(2)].toDictionary()
+                
+                expect(attributes[NSBaselineOffsetAttributeName] as? Float) == 1
+                expect(attributes[NSExpansionAttributeName] as? Float) == 2
+            }
+        }
     }
 }

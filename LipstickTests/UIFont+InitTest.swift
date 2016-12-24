@@ -6,14 +6,19 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 
-class UIFontInitTest: XCTestCase {
+class UIFontInitTest: QuickSpec {
     
-    func testInit() {
-        let font = UIFont("HelveticaNeue", 12)
-        
-        XCTAssertEqual("HelveticaNeue", font.fontName)
-        XCTAssertEqual(12, font.pointSize)
+    override func spec() {
+        describe("UIFont init") {
+            it("creates UIFont") {
+                let font = UIFont("HelveticaNeue", 12)
+                
+                expect(font.fontName) == "HelveticaNeue"
+                expect(font.pointSize) == 12
+            }
+        }
     }
 }

@@ -6,15 +6,20 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 import Lipstick
 
-class UITableViewInitTest: XCTestCase {
+class UITableViewInitTest: QuickSpec {
     
-    func testInit() {
-        let view = UITableView(style: .plain)
-        
-        XCTAssertEqual(CGRect.zero, view.frame)
-        XCTAssertEqual(UITableViewStyle.plain, view.style)
+    override func spec() {
+        describe("UITableView init") {
+            it("creates UITableView with zero CGRect") {
+                let view = UITableView(style: .plain)
+                
+                expect(view.frame) == CGRect.zero
+                expect(view.style) == UITableViewStyle.plain
+            }
+        }
     }
 }

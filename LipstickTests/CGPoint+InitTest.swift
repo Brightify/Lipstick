@@ -6,15 +6,20 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 import Lipstick
 
-class CGPointInitTest: XCTestCase {
+class CGPointInitTest: QuickSpec {
     
-    func testInit() {
-        XCTAssertEqual(CGPoint(x: 0, y: 0), CGPoint())
-        XCTAssertEqual(CGPoint(x: 1, y: 1), CGPoint(1))
-        XCTAssertEqual(CGPoint(x: 1, y: 0), CGPoint(x: 1))
-        XCTAssertEqual(CGPoint(x: 0, y: 1), CGPoint(y: 1))
+    override func spec() {
+        describe("CGPoint init") {
+            it("creates CGPoint") {
+                expect(CGPoint()) == CGPoint(x: 0, y: 0)
+                expect(CGPoint(1)) == CGPoint(x: 1, y: 1)
+                expect(CGPoint(x: 1)) == CGPoint(x: 1, y: 0)
+                expect(CGPoint(y: 1)) == CGPoint(x: 0, y: 1)
+            }
+        }
     }
 }

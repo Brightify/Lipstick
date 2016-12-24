@@ -10,6 +10,7 @@ import UIKit
 
 extension UIColor {
     
+    /// Accepted formats: "#RRGGBB" and "#RRGGBBAA".
     public convenience init(hex: String) {
         let hexNumber = String(hex.characters.dropFirst())
         let length = hexNumber.characters.count
