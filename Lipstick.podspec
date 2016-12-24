@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = "Lipstick"
-  s.version          = "0.4.1"
+  s.version          = "0.5.0"
   s.summary          = "Helpers for UIKit to make styling easier."
   s.description      = <<-DESC
-                        Multiple methods and helpers that cache fonts and colors by their names and hex strings.
+                        Lipstick is small library which aim to improve usage of UIKit (UIColor, CGRect ...). Consists mostly from convenience inits , helper methods and so on. Main motivation behind this library is protocol `Stylable` which allows to easily apply styles to `UIView` (See Usage/Stylable).
                        DESC
 
   s.homepage         = "https://github.com/SwiftKit/Lipstick"

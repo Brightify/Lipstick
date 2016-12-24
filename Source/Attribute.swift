@@ -6,8 +6,11 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
+// TODO Add Slack reference to docs. Replace SwiftKit with Brightify.
+
 import UIKit
 
+/// Enum which represents NS attributes for NSAttributedString (like NSStrokeColorAttributeName). Each case has value and assigned name.
 public enum Attribute {
     case font(UIFont)
     case paragraphStyle(NSParagraphStyle)
@@ -133,6 +136,7 @@ public enum Attribute {
 
 public extension Sequence where Iterator.Element == Attribute {
     
+    /// Creates dictionary from sequence of attributes by merging them together. String is name of case and AnyObject value corresponding to it.
     public func toDictionary() -> [String: AnyObject] {
         var attributeDictionary: [String: AnyObject] = [:]
         for attribute in self {

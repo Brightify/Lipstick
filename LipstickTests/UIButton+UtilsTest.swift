@@ -6,33 +6,40 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 import Lipstick
 
-class UIButtonUtilsTest: XCTestCase {
+class UIButtonUtilsTest: QuickSpec {
     
-    func testInit() {
-        let view = UIButton(title: "title")
-        
-        XCTAssertEqual("title", view.title(for: UIControlState()))
-    }
-    
-    func testSetBackgroundColor() {
-        let button = UIButton()
-        let controlState = UIControlState.highlighted
-        
-        button.setBackgroundColor(UIColor.green, forState: controlState)
-        
-        let image = button.backgroundImage(for: controlState)
-        if let pixelData = image?.cgImage?.dataProvider?.data, let data = CFDataGetBytePtr(pixelData) {
-            let r = CGFloat(data[0]) / 255
-            let g = CGFloat(data[1]) / 255
-            let b = CGFloat(data[2]) / 255
-            let a = CGFloat(data[3]) / 255
-            XCTAssertEqual(UIColor.green, UIColor(red: r, green: g, blue: b, alpha: a))
-            XCTAssertEqual(CGSize(1), image?.size)
-        } else {
-            XCTFail("Cannot find color of background image.")
+    override func spec() {
+        describe("UIButton") {
+            describe("init") {
+                it("creates UIButton with title") {
+                    expect(UIButton(title: "title").title(for: UIControlState())) == "title"
+                }
+            }
+            describe("setBackgroundColor") {
+                it("sets background color") {
+                    let button = UIButton()
+                    let controlState = UIControlState.highlighted
+                    
+                    button.setBackgroundColor(UIColor.green, forState: controlState)
+                    
+                    let image = button.backgroundImage(for: controlState)
+                    if let pixelData = image?.cgImage?.dataProvider?.data, let data = CFDataGetBytePtr(pixelData) {
+                        let r = CGFloat(data[0]) / 255
+                        let g = CGFloat(data[1]) / 255
+                        let b = CGFloat(data[2]) / 255
+                        let a = CGFloat(data[3]) / 255
+                        
+                        expect(UIColor(red: r, green: g, blue: b, alpha: a)) == UIColor.green
+                        expect(image?.size) == CGSize(1)
+                    } else {
+                        fail("Cannot find color of background image.")
+                    }
+                }
+            }
         }
     }
 }

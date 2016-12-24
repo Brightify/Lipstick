@@ -10,6 +10,7 @@ import UIKit
 
 postfix operator %
 
+/// Returns input / 100.
 public postfix func %(input: CGFloat) -> CGFloat {
     return input / 100
 }

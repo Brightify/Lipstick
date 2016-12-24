@@ -23,12 +23,12 @@ public func + (lhs: NSAttributedString, rhs: String) -> NSAttributedString {
 }
 
 extension String {
+
+    public func attributed(_ attributes: [Attribute]) -> NSAttributedString {
+        return NSAttributedString(string: self, attributes: attributes.toDictionary())
+    }
     
     public func attributed(_ attributes: Attribute...) -> NSAttributedString {
         return attributed(attributes)
-    }
-    
-    public func attributed(_ attributes: [Attribute]) -> NSAttributedString {
-        return NSAttributedString(string: self, attributes: attributes.toDictionary())
     }
 }

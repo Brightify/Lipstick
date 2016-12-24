@@ -6,39 +6,36 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 import Lipstick
 
-class NSAttributedStringAttributeTest: XCTestCase {
+class NSAttributedStringAttributeTest: QuickSpec {
     
-    func testPlusAttributedStrings() {
-        let string = NSAttributedString(string: "A") + NSAttributedString(string: "B")
-        
-        XCTAssertEqual(NSAttributedString(string: "AB"), string)
-    }
-    
-    func testStringPlusAttributedString() {
-        let string = "A" + NSAttributedString(string: "B")
-        
-        XCTAssertEqual(NSAttributedString(string: "AB"), string)
-    }
-    
-    func testAttributedStringPlusString() {
-        let string = NSAttributedString(string: "A") + "B"
-        
-        XCTAssertEqual(NSAttributedString(string: "AB"), string)
-    }
-    
-    func testAttributedVararg() {
-        let attributes = [Attribute.baselineOffset(1), Attribute.expansion(1)]
-        let attributedString = NSAttributedString(string: "A", attributes: attributes.toDictionary())
-        
-        XCTAssertEqual(attributedString, "A".attributed(attributes))
-    }
-    
-    func testAttributed() {
-        let attributedString = NSAttributedString(string: "A", attributes: [Attribute.baselineOffset(1), Attribute.expansion(1)].toDictionary())
-        
-        XCTAssertEqual(attributedString, "A".attributed(Attribute.baselineOffset(1), Attribute.expansion(1)))
+    override func spec() {
+        describe("AttributedString + AttributedString") {
+            it("sums") {
+                expect(NSAttributedString(string: "A") + NSAttributedString(string: "B")) == NSAttributedString(string: "AB")
+            }
+        }
+        describe("String + AttributedString") {
+            it("sums") {
+                expect("A" + NSAttributedString(string: "B")) == NSAttributedString(string: "AB")
+            }
+        }
+        describe("AttributedString + String") {
+            it("sums") {
+                expect(NSAttributedString(string: "A") + "B") == NSAttributedString(string: "AB")
+            }
+        }
+        describe("attributed") {
+            it("creates AttributedString") {
+                let attributes = [Attribute.baselineOffset(1), Attribute.expansion(1)]
+                let attributedString = NSAttributedString(string: "A", attributes: attributes.toDictionary())
+                
+                expect("A".attributed(attributes)) == attributedString
+                expect("A".attributed(Attribute.baselineOffset(1), Attribute.expansion(1))) == attributedString
+            }
+        }
     }
 }

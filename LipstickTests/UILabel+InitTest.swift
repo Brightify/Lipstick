@@ -6,14 +6,17 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 import Lipstick
 
-class UILabelInitTest: XCTestCase {
+class UILabelInitTest: QuickSpec {
     
-    func testInit() {
-        let label = UILabel(text: "text")
-        
-        XCTAssertEqual("text", label.text)
+    override func spec() {
+        describe("UILabel init") {
+            it("creates UILabel with text") {
+                expect(UILabel(text: "text").text) == "text"
+            }
+        }
     }
 }

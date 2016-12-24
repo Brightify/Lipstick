@@ -6,15 +6,20 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 import Lipstick
 
-class CGSizeInitTest: XCTestCase {
+class CGSizeInitTest: QuickSpec {
     
-    func testInit() {
-        XCTAssertEqual(CGSize(width: 0, height: 0), CGSize())
-        XCTAssertEqual(CGSize(width: 1, height: 1), CGSize(1))
-        XCTAssertEqual(CGSize(width: 1, height: 0), CGSize(width: 1))
-        XCTAssertEqual(CGSize(width: 0, height: 1), CGSize(height: 1))
+    override func spec() {
+        describe("CGSize init") {
+            it("creates CGSize") {
+                expect(CGSize(width: 0, height: 0)) == CGSize()
+                expect(CGSize(width: 1, height: 1)) == CGSize(1)
+                expect(CGSize(width: 1, height: 0)) == CGSize(width: 1)
+                expect(CGSize(width: 0, height: 1)) == CGSize(height: 1)
+            }
+        }
     }
 }

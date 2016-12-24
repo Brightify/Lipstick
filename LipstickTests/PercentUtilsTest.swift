@@ -6,12 +6,17 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 import Lipstick
 
-class PercentUtilsTest: XCTestCase {
-
-    func testPercent() {
-        XCTAssertEqual(0.35, 35%)
+class PercentUtilsTest: QuickSpec {
+    
+    override func spec() {
+        describe("%") {
+            it("returns percents") {
+                expect(35%) == 0.35
+            }
+        }
     }
 }

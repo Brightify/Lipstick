@@ -6,48 +6,51 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 import Lipstick
 
-class StylableTest: XCTestCase {
+class StylableTest: QuickSpec {
     
-    private var view: UIView!
-    
-    override func setUp() {
-        view = UIView()
+    override func spec() {
+        var view: UIView!
+        beforeEach {
+            view = UIView()
+        }
+        describe("applyStyle") {
+            it("applies style") {
+                view.apply(style: Styles.background)
+                view.apply(style: Styles.tint)
+                
+                self.assert(view: view)
+            }
+        }
+        describe("applyStyles") {
+            it("applies styles") {
+                view.apply(styles: Styles.background, Styles.tint)
+                
+                self.assert(view: view)
+            }
+            it("applies styles with vararg") {
+                view.apply(styles: [Styles.background, Styles.tint])
+                
+                self.assert(view: view)
+            }
+        }
+        describe("styled") {
+            it("applies styles") {
+                let styledView = view.styled(using: Styles.background, Styles.tint)
+                
+                self.assert(view: styledView)
+            }
+            it("applies styles with vararg") {
+                let styledView = view.styled(using: [Styles.background, Styles.tint])
+                
+                self.assert(view: styledView)
+            }
+        }
     }
-    
-    func testApplyStyle() {
-        view.apply(style: Styles.background)
-        view.apply(style: Styles.tint)
-        
-        assert(view: view)
-    }
-    
-    func testApplyStylesVararg() {
-        view.apply(styles: Styles.background, Styles.tint)
-        
-        assert(view: view)
-    }
-    
-    func testApplyStyles() {
-        view.apply(styles: [Styles.background, Styles.tint])
-        
-        assert(view: view)
-    }
-    
-    func testStyledVararg() {
-        let styledView = view.styled(using: Styles.background, Styles.tint)
-        
-        assert(view: styledView)
-    }
-    
-    func testStyled() {
-        let styledView = view.styled(using: [Styles.background, Styles.tint])
-        
-        assert(view: styledView)
-    }
-    
+
     private func assert(view: UIView, file: StaticString = #file, line: UInt = #line) {
         XCTAssertEqual(UIColor.blue, view.backgroundColor, file: file, line: line)
         XCTAssertEqual(UIColor.black, view.tintColor, file: file, line: line)
@@ -57,6 +60,10 @@ class StylableTest: XCTestCase {
 extension StylableTest {
     
     fileprivate struct Styles {
+        
+        static var style: Style<UILabel> = { view in
+            view.backgroundColor = UIColor.blue
+        }
         
         static func background(_ view: UIView) {
             view.backgroundColor = UIColor.blue

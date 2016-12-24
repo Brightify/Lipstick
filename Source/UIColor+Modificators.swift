@@ -9,11 +9,8 @@
 import UIKit
 
 extension UIColor {
-    
-    public func darker(by percent: CGFloat) -> UIColor {
-        return lighter(by: -percent)
-    }
-    
+
+    /// Increases color's brightness.
     public func lighter(by percent: CGFloat) -> UIColor {
         var hue: CGFloat = 0
         var saturation: CGFloat = 0
@@ -28,6 +25,12 @@ extension UIColor {
         }
     }
     
+    /// Reduces color's brightness.
+    public func darker(by percent: CGFloat) -> UIColor {
+        return lighter(by: -percent)
+    }
+    
+    /// Increases color's saturation.
     public func saturated(by percent: CGFloat) -> UIColor {
         var hue: CGFloat = 0
         var saturation: CGFloat = 0
@@ -42,10 +45,12 @@ extension UIColor {
         }
     }
     
+    /// Reduces color's saturation.
     public func desaturated(by percent: CGFloat) -> UIColor {
         return saturated(by: -percent)
     }
     
+    /// Increases color's alpha.
     public func fadedIn(by percent: CGFloat) -> UIColor {
         var hue: CGFloat = 0
         var saturation: CGFloat = 0
@@ -60,6 +65,7 @@ extension UIColor {
         }
     }
     
+    /// Reduces color's alpha.
     public func fadedOut(by percent: CGFloat) -> UIColor {
         return fadedIn(by: -percent)
     }

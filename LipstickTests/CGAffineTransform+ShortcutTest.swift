@@ -6,31 +6,39 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 import Lipstick
 
-class CGAffineTransformShortcutTest: XCTestCase {
+class CGAffineTransformShortcutTest: QuickSpec {
     
-    func testPlus() {
-        XCTAssertEqual(translate(x: 5, y: 3), translate(x: 5) + translate(y: 3))
-    }
-    
-    func testRotate() {
-        XCTAssertEqual(CGAffineTransform(rotationAngle: 0), rotate())
-        XCTAssertEqual(CGAffineTransform(rotationAngle: 10), rotate(10))
-    }
-    
-    func testTranslate() {
-        XCTAssertEqual(CGAffineTransform(translationX: 0, y: 0), translate())
-        XCTAssertEqual(CGAffineTransform(translationX: 1, y: 0), translate(x: 1))
-        XCTAssertEqual(CGAffineTransform(translationX: 0, y: 1), translate(y: 1))
-        XCTAssertEqual(CGAffineTransform(translationX: 1, y: 1), translate(x: 1, y: 1))
-    }
-    
-    func testScale() {
-        XCTAssertEqual(CGAffineTransform(scaleX: 1, y: 1), scale())
-        XCTAssertEqual(CGAffineTransform(scaleX: 2, y: 1), scale(x: 2))
-        XCTAssertEqual(CGAffineTransform(scaleX: 1, y: 2), scale(y: 2))
-        XCTAssertEqual(CGAffineTransform(scaleX: 2, y: 2), scale(x: 2, y: 2))
+    override func spec() {
+        describe("+") {
+            it("sums vectors") {
+                expect(translate(x: 5) + translate(y: 3)) == translate(x: 5, y: 3)
+            }
+        }
+        describe("rotate") {
+            it("creates CGAffineTransform") {
+                expect(rotate()) == CGAffineTransform(rotationAngle: 0)
+                expect(rotate(10)) == CGAffineTransform(rotationAngle: 10)
+            }
+        }
+        describe("translate") {
+            it("creates CGAffineTransform") {
+                expect(translate()) == CGAffineTransform(translationX: 0, y: 0)
+                expect(translate(x: 1)) == CGAffineTransform(translationX: 1, y: 0)
+                expect(translate(y: 1)) == CGAffineTransform(translationX: 0, y: 1)
+                expect(translate(x: 1, y: 1)) == CGAffineTransform(translationX: 1, y: 1)
+            }
+        }
+        describe("scale") {
+            it("creates CGAffineTransform") {
+                expect(scale()) == CGAffineTransform(scaleX: 1, y: 1)
+                expect(scale(x: 2)) == CGAffineTransform(scaleX: 2, y: 1)
+                expect(scale(y: 2)) == CGAffineTransform(scaleX: 1, y: 2)
+                expect(scale(x: 2, y: 2)) == CGAffineTransform(scaleX: 2, y: 2)
+            }
+        }
     }
 }
