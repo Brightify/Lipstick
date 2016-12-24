@@ -61,10 +61,6 @@ extension StylableTest {
     
     fileprivate struct Styles {
         
-        static var style: Style<UILabel> = { view in
-            view.backgroundColor = UIColor.blue
-        }
-        
         static func background(_ view: UIView) {
             view.backgroundColor = UIColor.blue
         }
