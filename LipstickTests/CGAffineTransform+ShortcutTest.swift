@@ -13,11 +13,6 @@ import Lipstick
 class CGAffineTransformShortcutTest: QuickSpec {
     
     override func spec() {
-        describe("+") {
-            it("sums vectors") {
-                expect(translate(x: 5) + translate(y: 3)) == translate(x: 5, y: 3)
-            }
-        }
         describe("rotate") {
             it("creates CGAffineTransform") {
                 expect(rotate()) == CGAffineTransform(rotationAngle: 0)
@@ -38,6 +33,11 @@ class CGAffineTransformShortcutTest: QuickSpec {
                 expect(scale(x: 2)) == CGAffineTransform(scaleX: 2, y: 1)
                 expect(scale(y: 2)) == CGAffineTransform(scaleX: 1, y: 2)
                 expect(scale(x: 2, y: 2)) == CGAffineTransform(scaleX: 2, y: 2)
+            }
+        }
+        describe("+") {
+            it("sums vectors") {
+                expect(translate(x: 5) + translate(y: 3)) == translate(x: 5, y: 3)
             }
         }
     }

@@ -44,7 +44,7 @@ Note: Inits for all structs like CGRect are created so that any parameter can be
 
 ### Stylable
 
-Stylable allows you to easily separate code defining view appereance from the rest. It is basically syntax sugger for using closures which modify passed object.
+Stylable allows you to easily separate code defining view appereance from the rest. It is basically syntax suger for using closures which modify passed object.
 
 ```Swift
 protocol Styleable { }
@@ -126,7 +126,7 @@ struct BaseStyles {
 struct LabelStyles {
 
     static func yellowTintWithBlueBackground(_ label: UILabel) {
-        BaseStyles.blueBackground(label)
+        label.apply(style: BaseStyles.blueBackground)
 
         label.tintColor = UIColor.yellow
     }
@@ -354,7 +354,7 @@ This library uses semantic versioning. Until version 1.0 API breaking changes ma
 * Tadeas Kriz, [tadeas@brightify.org](mailto:tadeas@brightify.org)
 * Filip Dolník, [filip@brightify.org](mailto:filip@brightify.org)
 
-## Used libraries
+## Used libraries in tests
 
 * [Quick](https://github.com/Quick/Quick)
 * [Nimble](https://github.com/Quick/Nimble)
