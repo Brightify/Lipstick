@@ -24,7 +24,7 @@ class UIButtonUtilsTest: QuickSpec {
                     let button = UIButton()
                     let controlState = UIControlState.highlighted
                     
-                    button.setBackgroundColor(UIColor.green, forState: controlState)
+                    button.setBackgroundColor(UIColor.green, for: controlState)
                     
                     let image = button.backgroundImage(for: controlState)
                     if let pixelData = image?.cgImage?.dataProvider?.data, let data = CFDataGetBytePtr(pixelData) {

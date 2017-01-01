@@ -19,7 +19,7 @@ extension UIButton {
 
 extension UIButton {
     
-    public func setBackgroundColor(_ color: UIColor, forState state: UIControlState) {
+    public func setBackgroundColor(_ color: UIColor, for state: UIControlState) {
         let rectangle = CGRect(size: CGSize(1));
         UIGraphicsBeginImageContext(rectangle.size);
         

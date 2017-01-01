@@ -27,24 +27,24 @@ class StylableTest: QuickSpec {
         }
         describe("applyStyles") {
             it("applies styles") {
-                view.apply(styles: Styles.background, Styles.tint)
+                view.apply(styles: [Styles.background, Styles.tint])
                 
                 self.assert(view: view)
             }
             it("applies styles with vararg") {
-                view.apply(styles: [Styles.background, Styles.tint])
+                view.apply(styles: Styles.background, Styles.tint)
                 
                 self.assert(view: view)
             }
         }
         describe("styled") {
             it("applies styles") {
-                let styledView = view.styled(using: Styles.background, Styles.tint)
+                let styledView = view.styled(using: [Styles.background, Styles.tint])
                 
                 self.assert(view: styledView)
             }
             it("applies styles with vararg") {
-                let styledView = view.styled(using: [Styles.background, Styles.tint])
+                let styledView = view.styled(using: Styles.background, Styles.tint)
                 
                 self.assert(view: styledView)
             }
