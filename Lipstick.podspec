@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
                         Lipstick is small library which aim to improve usage of UIKit (UIColor, CGRect ...). Consists mostly from convenience inits , helper methods and so on. Main motivation behind this library is protocol `Stylable` which allows to easily apply styles to `UIView` (See Usage/Stylable).
                        DESC
 
-  s.homepage         = "https://github.com/SwiftKit/Lipstick"
+  s.homepage         = "https://github.com/brightify/Lipstick"
   s.license          = 'MIT'
   s.author           = { "Tadeas Kriz" => "tadeas@brightify.org", "Filip Dolnik" => "filip@brightify.org" }
   s.source           = {
-      :git => "https://github.com/SwiftKit/Lipstick.git",
+      :git => "https://github.com/brightify/Lipstick.git",
       :tag => s.version.to_s
   }
 
