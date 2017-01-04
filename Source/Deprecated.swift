@@ -8,82 +8,82 @@
 
 import UIKit
 
-@available(*, deprecated, message: "Replace with: UIEdgeInsets(all)")
+@available(*, deprecated, renamed: "UIEdgeInsets.init(_:)")
 public func insets(_ all: CGFloat) -> UIEdgeInsets {
     return UIEdgeInsets(all)
 }
 
-@available(*, deprecated, message: "Replace with: UIEdgeInsets(horizontal: horizontal, vertical: vertical)")
+@available(*, deprecated, renamed: "UIEdgeInsets.init(horizontal:vertical:)")
 public func insets(horizontal: CGFloat = 0, vertical: CGFloat = 0) -> UIEdgeInsets {
     return UIEdgeInsets(horizontal: horizontal, vertical: vertical)
 }
 
-@available(*, deprecated, message: "Replace with: UIEdgeInsets(top: top, left: left, bottom: bottom, right: right)")
+@available(*, deprecated, renamed: "UIEdgeInsets.init(top:left:bottom:right:)")
 public func insets(left: CGFloat = 0, top: CGFloat = 0, right: CGFloat = 0, bottom: CGFloat = 0) -> UIEdgeInsets {
     return UIEdgeInsets(top: top, left: left, bottom: bottom, right: right)
 }
 
-@available(*, deprecated, message: "Replace with: CGSize(both)")
+@available(*, deprecated, renamed: "CGSize.init(_:)")
 public func size(_ both: CGFloat) -> CGSize {
     return CGSize(both)
 }
 
-@available(*, deprecated, message: "Replace with: CGSize(width: width, height: height)")
+@available(*, deprecated, renamed: "CGSize.init(width:height:)")
 public func size(width: CGFloat = 0, height: CGFloat = 0) -> CGSize {
     return CGSize(width: width, height: height)
 }
 
-@available(*, deprecated, message: "Replace with: CGPoint(both)")
+@available(*, deprecated, renamed: "CGPoint.init(_:)")
 public func point(_ both: CGFloat) -> CGPoint {
     return CGPoint(both)
 }
 
-@available(*, deprecated, message: "Replace with: CGPoint(x: x, y: y)")
+@available(*, deprecated, renamed: "CGPoint.init(x:y:)")
 public func point(x: CGFloat = 0, y: CGFloat = 0) -> CGPoint {
     return CGPoint(x: x, y: y)
 }
 
-@available(*, deprecated, message: "Replace with: CGRect(x: x, y: y, width: width, height: height)")
+@available(*, deprecated, renamed: "CGRect.init(x:y:width:height:)")
 public func rect(x: CGFloat = 0, y: CGFloat = 0, width: CGFloat = 0, height: CGFloat = 0) -> CGRect {
     return CGRect(x: x, y: y, width: width, height: height)
 }
 
-@available(*, deprecated, message: "Replace with: UIFont(name, size)")
+@available(*, deprecated, renamed: "UIFont.init(_:_:)")
 public func font(_ name: String, _ size: CGFloat) -> UIFont {
     return UIFont(name, size)
 }
 
-@available(*, deprecated, message: "Replace with: UIFont(descriptor: descriptor, size: size)")
+@available(*, deprecated, renamed: "UIFont.init(descriptor:size:)")
 public func font(_ descriptor: UIFontDescriptor, _ size: CGFloat) -> UIFont {
     return UIFont(descriptor: descriptor, size: size)
 }
 
-@available(*, deprecated, message: "Replace with: UIImage(named: name)")
+@available(*, deprecated, renamed: "UIImage.init(named:)")
 public func image(_ name: String) -> UIImage? {
     return UIImage(named: name)
 }
 
-@available(*, deprecated, message: "Replace with: UIColor(rgb)")
+@available(*, deprecated, message: "Replace with: UIColor(rgb: UInt)")
 public func rgb(_ red: CGFloat, _ green: CGFloat, _ blue: CGFloat) -> UIColor {
     return rgba(red, green, blue, 1)
 }
 
-@available(*, deprecated, message: "Replace with: UIColor(rgba)")
+@available(*, deprecated, message: "Replace with: UIColor(rgba: UInt)")
 public func rgba(_ red: CGFloat, _ green: CGFloat, _ blue: CGFloat, _ alpha: CGFloat) -> UIColor {
     return UIColor(red: red / 255, green: green / 255, blue: blue / 255, alpha: alpha)
 }
 
-@available(*, deprecated, message: "Replace with: UIColor(hue: hue, saturation: saturation, brightness: brightness, alpha: alpha)")
+@available(*, deprecated, renamed: "UIColor.init(hue:saturation:brightness:alpha:)")
 public func hsl(_ hue: CGFloat, _ saturation: CGFloat, _ brightness: CGFloat) -> UIColor {
-    return hsla(hue, saturation, brightness, 1)
+    return UIColor(hue: hue, saturation: saturation, brightness: brightness, alpha: 1)
 }
 
-@available(*, deprecated, message: "Replace with: UIColor(hue: hue, saturation: saturation, brightness: brightness, alpha: alpha)")
+@available(*, deprecated, renamed: "UIColor.init(hue:saturation:brightness:alpha:)")
 public func hsla(_ hue: CGFloat, _ saturation: CGFloat, _ brightness: CGFloat, _ alpha: CGFloat) -> UIColor {
     return UIColor(hue: hue, saturation: saturation, brightness: brightness, alpha: alpha)
 }
 
-@available(*, deprecated, message: "Replace with: UIOffset(horizontal: horizontal, vertical: vertical)")
+@available(*, deprecated, renamed: "UIOffset.init(horizontal:vertical:)")
 public func offset(_ horizontal: CGFloat, vertical: CGFloat) -> UIOffset {
     return UIOffset(horizontal: horizontal, vertical: vertical)
 }

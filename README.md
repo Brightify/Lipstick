@@ -8,7 +8,7 @@
 
 ## Introduction
 
-Lipstick is small library which aim to improve usage of UIKit (UIColor, CGRect ...). Consists mostly from convenience inits , helper methods and so on. Main motivation behind this library is protocol `Stylable` which allows to easily apply styles to `UIView` (See Usage/Stylable).
+Lipstick is small library which aim to improve usage of UIKit (UIColor, CGRect ...). It consists mostly of convenience inits, helper methods etc. Main motivation behind this library is the protocol `Stylable` which allows easy style application to `UIView` (See Usage/Stylable).
 
 ## Changelog
 
@@ -44,7 +44,7 @@ Note: Inits for all structs like CGRect are created so that any parameter can be
 
 ### Stylable
 
-Stylable allows you to easily separate code defining view appereance from the rest. It is basically syntax suger for using closures which modify passed object.
+Stylable allows you to easily separate code defining view appereance from the rest. It is basically syntax sugar for using closures which modify passed object.
 
 ```Swift
 protocol Styleable { }
