@@ -9,13 +9,16 @@
 import UIKit
 
 extension CGSize {
-    
+
     public init(_ both: CGFloat) {
         self.init(width: both, height: both)
     }
-    
-    public init(width: CGFloat = 0, height: CGFloat = 0) {
-        self.width = width
-        self.height = height
+
+    public init(width: CGFloat) {
+        self.init(width: width, height: 0)
+    }
+
+    public init(height: CGFloat) {
+        self.init(width: 0, height: height)
     }
 }
