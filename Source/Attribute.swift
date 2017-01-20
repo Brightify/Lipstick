@@ -6,8 +6,6 @@
 //  Copyright © 2016 Brightify. All rights reserved.
 //
 
-// TODO Add Slack reference to docs. Replace SwiftKit with Brightify.
-
 import UIKit
 
 /// Enum which represents NS attributes for NSAttributedString (like NSStrokeColorAttributeName). Each case has value and assigned name.

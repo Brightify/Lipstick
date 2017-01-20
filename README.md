@@ -1,10 +1,11 @@
 # Lipstick
 
-[![CI Status](http://img.shields.io/travis/SwiftKit/Lipstick.svg?style=flat)](https://travis-ci.org/SwiftKit/Lipstick)
+[![CI Status](http://img.shields.io/travis/Brightify/Lipstick.svg?style=flat)](https://travis-ci.org/Brightify/Lipstick)
 [![Version](https://img.shields.io/cocoapods/v/Lipstick.svg?style=flat)](http://cocoapods.org/pods/Lipstick)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Lipstick.svg?style=flat)](http://cocoapods.org/pods/Lipstick)
 [![Platform](https://img.shields.io/cocoapods/p/Lipstick.svg?style=flat)](http://cocoapods.org/pods/Lipstick)
+[![Slack Status](http://swiftkit.brightify.org//badge.svg)](http://swiftkit.brightify.org)
 
 ## Introduction
 
@@ -33,7 +34,7 @@ pod "Lipstick"
 To use Lipstick with [Carthage](https://github.com/Carthage/Carthage) add in your Cartfile this line:
 
 ```
-github "SwiftKit/Lipstick"
+github "Brightify/Lipstick"
 ```
 
 ## Usage
