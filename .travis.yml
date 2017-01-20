@@ -1,6 +1,10 @@
 language: objective-c
-osx_image: xcode8
+osx_image: xcode8.2
 
 script:
-    - xctool test -project Lipstick.xcodeproj -scheme Lipstick -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+    - xcodebuild -workspace Lipstick.xcworkspace -scheme Lipstick -sdk iphonesimulator build-for-testing
+    - xctool -workspace Lipstick.xcworkspace -scheme Lipstick -sdk iphonesimulator run-tests
     - pod lib lint
+
+notifications:
+    slack: brightify:00rIGJIfWqG5RyWCVoRNEgxt
