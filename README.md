@@ -41,11 +41,11 @@ github "Brightify/Lipstick"
 
 Due to the nature of this library, the easiest way to learn its content is to look at [tests](Tests) or directly into [source code](Source). Below is listed complete content (sorted alphabetically except for Stylable) for quick reference.
 
-Note: Inits for all structs like CGRect are created so that any parameter can be ommited (has default value of 0). For example: `CGRect(x: 1)`, `CGRect(origin: origin, width: 1)` and `CGRect(x: 1, size: size)` are all valid and these possibilites are skipped from this documentation.   
+Note: Inits for all structs like CGRect are created so that any parameter can be omitted (has default value of 0). For example: `CGRect(x: 1)`, `CGRect(origin: origin, width: 1)` and `CGRect(x: 1, size: size)` are all valid and these possibilities are skipped from this documentation.   
 
 ### Stylable
 
-Stylable allows you to easily separate code defining view appereance from the rest. It is basically syntax sugar for using closures which modify passed object.
+Stylable allows you to easily separate code defining view appearance from the rest. It is basically syntax sugar for using closures which modify passed object.
 
 ```Swift
 protocol Styleable { }
@@ -91,14 +91,14 @@ fileprivate extension SomeView {
 }
 ```
 
-To later change the appereance of view do:
+To later change the appearance of view do:
 
 ```Swift
 class SomeView: UIView {
 
     private let label ...
 
-    func changeAppereanceOfLabel() {
+    func changeAppearanceOfLabel() {
         label.apply(style: Styles.whiteBackground)
     }
 }
@@ -348,7 +348,7 @@ extension UITableView {
 
 ## Versioning
 
-This library uses semantic versioning. Until version 1.0 API breaking changes may occur even in minor versions. We consider version 0.5 to be prerelease, which means that API should be stable but is not tested yet in real project. After that testing we make needed adjustmens and bump the version to 1.0 (first release).
+This library uses semantic versioning. Until version 1.0 API breaking changes may occur even in minor versions. We consider version 0.5 to be prerelease, which means that API should be stable but is not tested yet in real project. After that testing we make needed adjustments and bump the version to 1.0 (first release).
 
 ## Author
 
