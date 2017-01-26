@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
     spec.social_media_url = 'https://twitter.com/BrightifyOrg'
     spec.requires_arc = true
 
-    spec.platform     = :ios, '8.0'
+    spec.platform = :ios, '8.0'
 
     spec.frameworks = 'UIKit'
 

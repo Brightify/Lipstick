@@ -2,9 +2,9 @@ language: objective-c
 osx_image: xcode8.2
 
 script:
-    - xcodebuild -workspace Lipstick.xcworkspace -scheme Lipstick -sdk iphonesimulator build-for-testing
+    - (xcodebuild -workspace Lipstick.xcworkspace -scheme Lipstick -sdk iphonesimulator build-for-testing | egrep -A 3 "(error|warning|note):\ "; exit ${PIPESTATUS[0]})
     - xctool -workspace Lipstick.xcworkspace -scheme Lipstick -sdk iphonesimulator run-tests
-    - pod lib lint
+    - pod lib lint --no-clean
 
 notifications:
     slack: brightify:00rIGJIfWqG5RyWCVoRNEgxt
