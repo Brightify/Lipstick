@@ -67,7 +67,7 @@ class StyleableTest: QuickSpec {
     }
 }
 
-extension StylableTest {
+extension StyleableTest {
     
     fileprivate struct Styles {
         
