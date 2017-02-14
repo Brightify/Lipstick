@@ -37,5 +37,10 @@ extension Styleable {
         apply(styles: styles)
         return self
     }
+    
+    public func with(_ style: Style<Self>) -> Self {
+        apply(style: style)
+        return self
+    }
 }
 

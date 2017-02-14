@@ -43,9 +43,9 @@ Due to the nature of this library, the easiest way to learn its content is to lo
 
 Note: Inits for all structs like CGRect are created so that any parameter can be omitted (has default value of 0). For example: `CGRect(x: 1)`, `CGRect(origin: origin, width: 1)` and `CGRect(x: 1, size: size)` are all valid and these possibilities are skipped from this documentation.   
 
-### Stylable
+### Styleable
 
-Stylable allows you to easily separate code defining view appearance from the rest. It is basically syntax sugar for using closures which modify passed object.
+`Styleable` allows you to easily separate code defining view appearance from the rest. It is basically syntax sugar for using closures which modify passed object.
 
 ```Swift
 protocol Styleable { }
@@ -65,6 +65,8 @@ extension Styleable {
     func styled(using styles: Style<Self>...) -> Self
 
     func styled(using styles: [Style<Self>]) -> Self
+
+    func with(_ style: Style<Self>) -> Self
 }
 ```
 

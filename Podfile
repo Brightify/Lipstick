@@ -6,6 +6,6 @@ target 'Lipstick' do
 end
 
 target 'LipstickTests' do
-    pod 'Nimble', '~> 5.1.1'
+    pod 'Nimble', '~> 5.1'
     pod 'Quick', '~> 1.0'
 end

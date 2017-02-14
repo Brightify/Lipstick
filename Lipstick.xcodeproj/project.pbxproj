@@ -20,7 +20,7 @@
 		DC1674941DB62C7100231E72 /* UIEdgeInsets+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674911DB62C7100231E72 /* UIEdgeInsets+Init.swift */; };
 		DC1674951DB62C7100231E72 /* UIFont+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674921DB62C7100231E72 /* UIFont+Init.swift */; };
 		DC1674961DB62C7100231E72 /* UIOffset+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674931DB62C7100231E72 /* UIOffset+Init.swift */; };
-		DC16749E1DB630CE00231E72 /* StylableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16749D1DB630CE00231E72 /* StylableTest.swift */; };
+		DC16749E1DB630CE00231E72 /* StyleableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16749D1DB630CE00231E72 /* StyleableTest.swift */; };
 		DC1674A01DB630CE00231E72 /* Lipstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184A87551C55049A00D4BC6D /* Lipstick.framework */; };
 		DC1674AE1DB63EDC00231E72 /* UITableView+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674AD1DB63EDC00231E72 /* UITableView+InitTest.swift */; };
 		DC1674B01DB642CE00231E72 /* UIOffset+InitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1674AF1DB642CE00231E72 /* UIOffset+InitTest.swift */; };
@@ -76,7 +76,7 @@
 		DC1674921DB62C7100231E72 /* UIFont+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Init.swift"; sourceTree = "<group>"; };
 		DC1674931DB62C7100231E72 /* UIOffset+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIOffset+Init.swift"; sourceTree = "<group>"; };
 		DC16749B1DB630CD00231E72 /* LipstickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LipstickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC16749D1DB630CE00231E72 /* StylableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = StylableTest.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DC16749D1DB630CE00231E72 /* StyleableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = StyleableTest.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DC16749F1DB630CE00231E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC1674AD1DB63EDC00231E72 /* UITableView+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+InitTest.swift"; sourceTree = "<group>"; };
 		DC1674AF1DB642CE00231E72 /* UIOffset+InitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIOffset+InitTest.swift"; sourceTree = "<group>"; };
@@ -215,7 +215,7 @@
 				DC5B83801DB6A738007751F6 /* CGSize+InitTest.swift */,
 				DC5B83881DB6B049007751F6 /* NSAttributedString+AttributeTest.swift */,
 				DC5B837E1DB6A6CA007751F6 /* PercentUtilsTest.swift */,
-				DC16749D1DB630CE00231E72 /* StylableTest.swift */,
+				DC16749D1DB630CE00231E72 /* StyleableTest.swift */,
 				DC5B837C1DB6654A007751F6 /* UIButton+UtilsTest.swift */,
 				DC1674BB1DB6642300231E72 /* UICollectionView+InitTest.swift */,
 				DC1674B91DB6624B00231E72 /* UIColor+InitTest.swift */,
@@ -453,7 +453,7 @@
 				DC5B83811DB6A738007751F6 /* CGSize+InitTest.swift in Sources */,
 				DC5B83871DB6AC33007751F6 /* CGAffineTransform+ShortcutTest.swift in Sources */,
 				DC1674B61DB6486600231E72 /* UIEdgeInsets+InitTest.swift in Sources */,
-				DC16749E1DB630CE00231E72 /* StylableTest.swift in Sources */,
+				DC16749E1DB630CE00231E72 /* StyleableTest.swift in Sources */,
 				DC1674BC1DB6642300231E72 /* UICollectionView+InitTest.swift in Sources */,
 				DC5B837D1DB6654A007751F6 /* UIButton+UtilsTest.swift in Sources */,
 				DC5B83851DB6ABBD007751F6 /* CGPoint+InitTest.swift in Sources */,
