@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name             = "Lipstick"
-    spec.version          = "0.5.1"
+    spec.version          = "0.5.2"
     spec.summary          = "Helpers for UIKit to make styling easier."
     spec.description      = <<-DESC
                           Lipstick is small library which aim to improve usage of UIKit (UIColor, CGRect ...). Consists mostly from convenience inits , helper methods and so on. Main motivation behind this library is protocol `Stylable` which allows to easily apply styles to `UIView` (See Usage/Stylable).

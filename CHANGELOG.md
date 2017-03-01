@@ -3,6 +3,7 @@
 ## 0.5.2
 
 * Added `with` to `Styleable`
+* Fix ambiguous use of CGPoint.init
 
 ## 0.5.1
 
